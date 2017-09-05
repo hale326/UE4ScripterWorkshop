@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeScripterWorkshop_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/ScripterWorkshop")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x23C1EF2B;
-			Guid.B = 0x3626A142;
+			Guid.A = 0x5F208919;
+			Guid.B = 0x76702FD7;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
