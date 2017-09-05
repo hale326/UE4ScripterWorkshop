@@ -1,0 +1,3 @@
+C:\Users\Admin\Documents\Repositories\03_BuildingEscape\ScripterWorkshop\Source\ScripterWorkshop\ScripterWorkshop.Build.cs
+C:\Users\Admin\Documents\Repositories\03_BuildingEscape\ScripterWorkshop\Source\ScripterWorkshop.Target.cs
+C:\Users\Admin\Documents\Repositories\03_BuildingEscape\ScripterWorkshop\Source\ScripterWorkshopEditor.Target.cs

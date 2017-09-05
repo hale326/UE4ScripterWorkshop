@@ -73,3 +73,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Defalut UE assets
+ScripterWorkshop/Content/StarterContent/*
