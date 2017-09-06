@@ -1,0 +1,29 @@
+﻿  Cleaning ScripterWorkshopEditor Binaries...
+  Compiling game modules for hot reload
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for ScripterWorkshopEditor
+    Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ScripterWorkshopEditor in 11,2458267 seconds
+  Performing 17 actions (2 in parallel)
+  [2/17] Resource PCLaunch.rc
+  [3/17] Resource ModuleVersionResource.rc.inl
+  SharedPCH.Engine.cpp
+  MaterialSwitcher.gen.cpp
+  MaterialSwitcher.cpp
+  ScripterWorkshop.cpp
+  ScripterWorkshopCharacter.cpp
+  ScripterWorkshopGameMode.cpp
+  ScripterWorkshopHUD.cpp
+  ScripterWorkshopProjectile.cpp
+  ScripterWorkshop.init.gen.cpp
+  ScripterWorkshopGameMode.gen.cpp
+  ScripterWorkshopCharacter.gen.cpp
+  ScripterWorkshopHUD.gen.cpp
+  ScripterWorkshopProjectile.gen.cpp
+  [16/17] Link UE4Editor-ScripterWorkshop-498.dll
+  [17/17] Link UE4Editor-ScripterWorkshop-498.lib
+     Creating library C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.lib and object C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.exp
+     Creating library C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.suppressed.lib and object C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.suppressed.exp
+  Deploying ScripterWorkshopEditor Win64 Development...
+  Total build time: 33,26 seconds (Local executor: 11,15 seconds)

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Runtime/Core/Public/Math/Color.h"
 #include "Engine/StaticMeshActor.h"
 #include "Components/ActorComponent.h"
 #include "MaterialSwitcher.generated.h"
@@ -18,6 +19,9 @@ public:
 	// Sets default values for this component's properties
 	UMaterialSwitcher();
 
+	UPROPERTY(EditAnywhere)
+		float RayLength = 150.0f;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -29,5 +33,11 @@ public:
 private:
 	// Material will be changed for this mesh
 	AStaticMeshActor* MeshToPaint;
-	
+
+	FVector GetRayStartPosition();
+	FVector GetRayEndPosition();
+
+	void GetFirstPhysicalBodyInReach();
+
+	FColor Color;
 };

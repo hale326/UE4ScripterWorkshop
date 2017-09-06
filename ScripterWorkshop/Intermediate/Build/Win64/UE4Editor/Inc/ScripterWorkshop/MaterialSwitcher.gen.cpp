@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeMaterialSwitcher() {}
 	SCRIPTERWORKSHOP_API UClass* Z_Construct_UClass_UMaterialSwitcher();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_ScripterWorkshop();
-	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor_NoRegister();
 // End Cross Module References
 	void UMaterialSwitcher::StaticRegisterNativesUMaterialSwitcher()
 	{
@@ -41,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeMaterialSwitcher() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20B00080u;
 
 
-				UProperty* NewProp_MeshToPaint = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MeshToPaint"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(MeshToPaint, UMaterialSwitcher), 0x0010000000000001, Z_Construct_UClass_AStaticMeshActor_NoRegister());
+				UProperty* NewProp_RayLength = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RayLength"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(RayLength, UMaterialSwitcher), 0x0010000000000001);
 				static TCppClassTypeInfo<TCppClassTypeTraits<UMaterialSwitcher> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -51,15 +50,15 @@ void EmptyLinkFunctionForGeneratedCodeMaterialSwitcher() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MaterialSwitcher.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MaterialSwitcher.h"));
-				MetaData->SetValue(NewProp_MeshToPaint, TEXT("Category"), TEXT("MaterialSwitcher"));
-				MetaData->SetValue(NewProp_MeshToPaint, TEXT("ModuleRelativePath"), TEXT("MaterialSwitcher.h"));
+				MetaData->SetValue(NewProp_RayLength, TEXT("Category"), TEXT("MaterialSwitcher"));
+				MetaData->SetValue(NewProp_RayLength, TEXT("ModuleRelativePath"), TEXT("MaterialSwitcher.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMaterialSwitcher, 562311863);
+	IMPLEMENT_CLASS(UMaterialSwitcher, 2388591828);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UMaterialSwitcher(Z_Construct_UClass_UMaterialSwitcher, &UMaterialSwitcher::StaticClass, TEXT("/Script/ScripterWorkshop"), TEXT("UMaterialSwitcher"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMaterialSwitcher);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
