@@ -37,7 +37,7 @@ private:
 	FVector GetRayStartPosition();
 	FVector GetRayEndPosition();
 
-	void GetFirstPhysicalBodyInReach();
+	FHitResult GetFirstPhysicalBodyInReach();
 
 	FColor Color;
 };

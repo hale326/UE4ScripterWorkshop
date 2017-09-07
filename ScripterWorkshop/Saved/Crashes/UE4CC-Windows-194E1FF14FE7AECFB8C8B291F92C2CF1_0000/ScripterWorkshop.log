@@ -1,0 +1,318 @@
+﻿Log file open, 09/07/17 15:29:53
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: ScripterWorkshop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(461549864) SRandInit(461549864).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.319392
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.07-13.29.56:516][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-13.29.56:516][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.07-13.29.56:570][  0]LogInit: Computer: ADMIN-PC
+[2017.09.07-13.29.56:570][  0]LogInit: User: Admin
+[2017.09.07-13.29.56:570][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.07-13.29.56:570][  0]LogInit: High frequency timer resolution =3.020517 MHz
+[2017.09.07-13.29.56:570][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.07-13.29.56:570][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.07-13.29.56:570][  0]LogMemory: Process Physical Memory: 278.62 MB used, 278.62 MB peak
+[2017.09.07-13.29.56:570][  0]LogMemory: Process Virtual Memory: 278.44 MB used, 278.44 MB peak
+[2017.09.07-13.29.56:570][  0]LogMemory: Physical Memory: 4986.20 MB used,  3189.11 MB free, 8175.30 MB total
+[2017.09.07-13.29.56:570][  0]LogMemory: Virtual Memory: 654.45 MB used,  3189.11 MB free, 8388608.00 MB total
+[2017.09.07-13.29.57:941][  0]LogInit: Using OS detected language (it-IT).
+[2017.09.07-13.29.57:941][  0]LogInit: Using OS detected locale (it-IT).
+[2017.09.07-13.29.58:185][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2017.09.07-13.29.58:186][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2017.09.07-13.30.02:713][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.07-13.30.03:293][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.09.07-13.30.03:293][  0]LogD3D11RHI:       1969/0/3831 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.07-13.30.03:293][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.07-13.30.03:300][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.07-13.30.03:300][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.07-13.30.03:300][  0]LogWindows: EnumDisplayDevices:
+[2017.09.07-13.30.03:300][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.09.07-13.30.03:301][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.07-13.30.03:301][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.07-13.30.03:301][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.07-13.30.03:302][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.07-13.30.03:302][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.07-13.30.03:302][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.07-13.30.03:302][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.07-13.30.03:302][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.09.07-13.30.03:302][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.09.07-13.30.03:302][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.09.07-13.30.03:302][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.07-13.30.03:527][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.07-13.30.03:634][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.07-13.30.03:648][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Intermediate/Shaders/WorkingDirectory/5440/).
+[2017.09.07-13.30.03:648][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/06F9411948DCB3CEC42E198D9F3B0ABA/'.
+[2017.09.07-13.30.03:648][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.07-13.30.27:854][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.07-13.30.27:947][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.07-13.30.28:043][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.07-13.30.28:149][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.07-13.30.28:532][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.07-13.30.28:624][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.07-13.30.28:721][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.07-13.30.28:815][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.07-13.30.28:897][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.07-13.30.29:012][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.07-13.30.29:102][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.07-13.30.29:191][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.07-13.30.29:286][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.07-13.30.29:417][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.07-13.30.29:582][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.07-13.30.29:861][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.07-13.30.29:861][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.07-13.30.30:018][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.07-13.30.30:278][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.07-13.30.30:343][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.07-13.30.30:475][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.07-13.30.30:598][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.07-13.30.30:730][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.07-13.30.30:869][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.07-13.30.30:869][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.07-13.30.32:633][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.07-13.30.34:333][  0]LogDerivedDataCache: Loaded boot cache 1.70s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.07-13.30.34:333][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.07-13.30.34:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.07-13.30.34:333][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.07-13.30.34:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.07-13.30.34:333][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.07-13.30.34:427][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.07-13.30.34:439][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.07-13.30.34:453][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.07-13.30.34:481][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.07-13.30.34:533][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-13.30.34:533][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-13.30.40:151][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.09.07-13.30.42:604][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-13.30.42:628][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.07-13.30.45:211][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.07-13.30.45:330][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.07-13.30.45:368][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.07-13.30.45:368][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.07-13.30.45:368][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.07-13.30.45:368][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.07-13.30.49:471][  0]LogNetVersion: ScripterWorkshop , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3244171880)
+[2017.09.07-13.30.50:809][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.116684 seconds
+[2017.09.07-13.30.50:818][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.07-13.30.50:818][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.07-13.30.50:818][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.07-13.30.51:001][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.07-13.31.20:059][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.07-13.31.20:163][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.07-13.31.27:812][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.07-13.31.29:722][  0]SourceControl: Source control is disabled
+[2017.09.07-13.31.29:722][  0]SourceControl: Source control is disabled
+[2017.09.07-13.31.29:925][  0]SourceControl: Source control is disabled
+[2017.09.07-13.31.30:083][  0]SourceControl: Source control is disabled
+[2017.09.07-13.31.32:449][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.07-13.31.33:132][  0]LogOcInput: OculusInput pre-init called
+[2017.09.07-13.31.34:136][  0]LogEngine: Initializing Engine...
+[2017.09.07-13.31.34:146][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.07-13.31.35:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.07-13.31.35:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.07-13.31.37:475][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.07-13.31.37:616][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-13.31.37:633][  0]LogInit: FAudioDevice initialized.
+[2017.09.07-13.31.38:136][  0]LogDerivedDataCache: Saved boot cache 0.50s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.07-13.31.38:156][  0]LogInit: Texture streaming: Enabled
+[2017.09.07-13.31.38:943][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.07-13.31.41:820][  0]LogInit: Transaction tracking system initialized
+[2017.09.07-13.31.43:472][  0]BlueprintLog: New page: Editor Load
+[2017.09.07-13.31.49:628][  0]LocalizationService: Localization service is disabled
+[2017.09.07-13.31.55:028][  0]LogConsoleResponse: Display: 
+[2017.09.07-13.32.00:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' took 0.04s
+[2017.09.07-13.32.00:234][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.07-13.32.00:259][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.07-13.32.00:372][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.07-13.32.05:267][  0]SourceControl: Source control is disabled
+[2017.09.07-13.32.05:294][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.07-13.32.05:306][  0]LightingResults: New page: Lighting Build
+[2017.09.07-13.32.05:418][  0]MapCheck: New page: Map Check
+[2017.09.07-13.32.05:418][  0]LightingResults: New page: Lighting Build
+[2017.09.07-13.32.06:349][  0]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-13.32.06:569][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.07-13.32.06:652][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.07-13.32.06:761][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.179ms to complete.
+[2017.09.07-13.32.06:777][  0]LogFileHelpers: Loading map 'ScripterWorkshop' took 1.500
+[2017.09.07-13.32.08:091][  0]LogCollectionManager: Loaded 0 collections in 0.003122 seconds
+[2017.09.07-13.32.08:265][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' took 0.01s
+[2017.09.07-13.32.08:265][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' took 0.01s
+[2017.09.07-13.32.08:265][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' took 0.00s
+[2017.09.07-13.32.08:265][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.07-13.32.08:280][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2392 classes and 504 folders.
+[2017.09.07-13.32.08:431][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2017.09.07-13.32.10:155][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.09.07-13.32.10:206][  0]LogSlate: Took 0.013255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.07-13.32.10:221][  0]LogSlate: Took 0.012475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.07-13.32.10:238][  0]LogSlate: Took 0.009833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.07-13.32.10:252][  0]LogSlate: Took 0.012340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.07-13.32.10:643][  0]LogRenderer: Reallocating scene render targets to support 832x588 Format 10 NumSamples 1 (Frame:1).
+[2017.09.07-13.32.11:583][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.09.07-13.32.11:583][  0]LogLoad: (Engine Initialization) Total time: 144.98 seconds
+[2017.09.07-13.32.11:584][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.07-13.32.11:584][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.07-13.32.11:584][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.07-13.32.11:963][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.07-13.32.12:270][  1]LogAssetRegistry: Asset discovery search completed in 92.1385 seconds
+[2017.09.07-13.32.12:273][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.07-13.32.12:273][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000272 seconds (updated 0 objects)
+[2017.09.07-13.42.14:177][891]LogSlate: Took 0.014691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-13.42.15:313][ 24]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-13.42.59:489][427]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Source/ScripterWorkshop/MaterialSwitcher.h'
+[2017.09.07-13.43.00:505][427]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Source/ScripterWorkshop/MaterialSwitcher.cpp'
+[2017.09.07-13.45.24:919][955]Candidate modules for hot reload:
+[2017.09.07-13.45.24:919][955]  ScripterWorkshop
+[2017.09.07-13.45.24:919][955]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 6474 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-13.45.24:922][955]Warning: Starting HotReload took  0.1s.
+[2017.09.07-13.48.13:250][240]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 5:48:13 PM
+[2017.09.07-13.48.13:250][240]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-13.48.13:250][240]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-13.48.13:250][240]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-13.48.13:251][240]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 13,2899606 seconds
+[2017.09.07-13.48.13:251][240]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.07-13.48.13:251][240]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-13.48.13:251][240]CompilerResultsLog: Error: c:\users\admin\documents\repositories\scripterworkshop\scripterworkshop\source\scripterworkshop\materialswitcher.cpp(64)  : error C4716: 'UMaterialSwitcher::GetFirstPhysicalBodyInReach': deve restituire un valore
+[2017.09.07-13.48.13:252][240]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-6474.dll
+[2017.09.07-13.48.13:252][240]CompilerResultsLog: Total build time: 166,99 seconds (Local executor: 0,00 seconds)
+[2017.09.07-13.48.13:252][240]LogMainFrame: MainFrame: Module compiling took 168.350 seconds
+[2017.09.07-13.48.13:283][240]Warning: HotReload failed, recompile failed
+[2017.09.07-13.48.56:088][692]Candidate modules for hot reload:
+[2017.09.07-13.48.56:089][692]  ScripterWorkshop
+[2017.09.07-13.48.56:089][692]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 418 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-13.48.56:091][692]Warning: Starting HotReload took  0.0s.
+[2017.09.07-13.49.25:825][ 22]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 5:49:25 PM
+[2017.09.07-13.49.25:826][ 22]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-13.49.25:826][ 22]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-13.49.25:826][ 22]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-13.49.25:826][ 22]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 11,9526064 seconds
+[2017.09.07-13.49.25:827][ 22]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.07-13.49.25:827][ 22]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-13.49.25:827][ 22]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-418.dll
+[2017.09.07-13.49.25:827][ 22]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-418.lib
+[2017.09.07-13.49.25:827][ 22]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-418.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-418.suppressed.exp
+[2017.09.07-13.49.25:828][ 22]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-418.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-418.exp
+[2017.09.07-13.49.25:828][ 22]CompilerResultsLog: Total build time: 28,76 seconds (Local executor: 5,54 seconds)
+[2017.09.07-13.49.25:828][ 22]LogMainFrame: MainFrame: Module compiling took 29.744 seconds
+[2017.09.07-13.49.26:295][ 22]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0034 seconds. Added 5 classes and 2 folders.
+[2017.09.07-13.49.26:313][ 22]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.07-13.49.26:564][ 22]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2393 classes and 506 folders.
+[2017.09.07-13.49.26:669][ 22]Display: HotReload took 30.6s.
+[2017.09.07-13.49.29:298][171]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.07-13.49.29:467][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-13.49.29:518][171]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 5:49:29 PM)
+[2017.09.07-13.49.29:552][171]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.07-13.49.29:620][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067650s)
+[2017.09.07-13.49.29:621][171]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-13.49.29:622][171]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2017.09.07-13.49.29:622][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.069882s)
+[2017.09.07-13.49.29:745][171]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-13.49.29:835][171]LogInit: FAudioDevice initialized.
+[2017.09.07-13.49.30:153][171]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.07-13.49.30:284][171]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-15.49.30
+[2017.09.07-13.49.30:325][171]LogWorld: Bringing up level for play took: 0.042541
+[2017.09.07-13.49.30:703][171]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2017.09.07-13.49.30:976][171]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 1.011

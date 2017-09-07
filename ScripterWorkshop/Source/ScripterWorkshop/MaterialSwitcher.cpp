@@ -34,19 +34,44 @@ void UMaterialSwitcher::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 	GetFirstPhysicalBodyInReach();
 }
 
-void UMaterialSwitcher::GetFirstPhysicalBodyInReach()
+FHitResult UMaterialSwitcher::GetFirstPhysicalBodyInReach()
 {
+	// Starting and ending position of Linetrace
+	FVector StartPosition = GetRayStartPosition();
+	FVector EndPosition = GetRayEndPosition();
+
 	// Draws a debug line to visualize the range of the raytrace selection
 	UKismetSystemLibrary::DrawDebugLine(
 		GetWorld(),
-		GetRayStartPosition(),
-		GetRayEndPosition(),
+		StartPosition,
+		EndPosition,
 		Color.Red,
 		0.0f,
 		10.0f
 	);
+		
+	FHitResult HitResult;
 
-	return;
+	// Additional collision parameters
+	FCollisionQueryParams CollisionParameters (FName(TEXT("")), false, GetOwner());
+
+	// Shoot Linetrace to get first colliding object it meets
+	GetWorld()->LineTraceSingleByObjectType(
+		OUT HitResult,
+		StartPosition,
+		EndPosition,
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_WorldStatic),
+		CollisionParameters
+	);
+
+	AActor* ActorHit = HitResult.GetActor();
+
+	if (ActorHit != nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Detected collision with %s"), *(ActorHit->GetName()));
+	}	
+
+	return HitResult;
 }
 
 FVector UMaterialSwitcher::GetRayStartPosition()
@@ -54,7 +79,9 @@ FVector UMaterialSwitcher::GetRayStartPosition()
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT PlayerViewPointLocation, 
+		OUT PlayerViewPointRotation);
 
 	FVector RayStartingPos = PlayerViewPointLocation;
 	return RayStartingPos;
@@ -65,7 +92,9 @@ FVector UMaterialSwitcher::GetRayEndPosition()
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT PlayerViewPointLocation, 
+		OUT PlayerViewPointRotation);
 
 	FVector RayEndingPos = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * RayLength;
 	return RayEndingPos;
