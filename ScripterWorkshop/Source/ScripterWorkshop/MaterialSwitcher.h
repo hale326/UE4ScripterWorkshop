@@ -21,6 +21,8 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float RayLength = 150.0f;
+	UPROPERTY(EditAnywhere)
+		bool ShowDebugLine = true;
 
 protected:
 	// Called when the game starts
@@ -34,10 +36,14 @@ private:
 	// Material will be changed for this mesh
 	AStaticMeshActor* MeshToPaint;
 
+	void SetupInputComponent();
+
 	FVector GetRayStartPosition();
 	FVector GetRayEndPosition();
 
 	FHitResult GetFirstPhysicalBodyInReach();
+
+	void SwitchMaterial();
 
 	FColor Color;
 };

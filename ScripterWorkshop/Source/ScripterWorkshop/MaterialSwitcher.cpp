@@ -4,6 +4,7 @@
 #include "Classes/Kismet/KismetSystemLibrary.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
+#include "Classes/Components/InputComponent.h"
 
 // Sets default values for this component's properties
 UMaterialSwitcher::UMaterialSwitcher()
@@ -19,19 +20,34 @@ UMaterialSwitcher::UMaterialSwitcher()
 // Called when the game starts
 void UMaterialSwitcher::BeginPlay()
 {
-	Super::BeginPlay();
+	Super::BeginPlay();	
+	SetupInputComponent();
+}
 
-	// ...
-	
+void UMaterialSwitcher::SetupInputComponent()
+{
+	UInputComponent *Input = nullptr;
+
+	Input = GetOwner()->FindComponentByClass<UInputComponent>();
+
+	if (Input)
+	{
+		Input->BindAction("Switch Material", IE_Pressed, this, &UMaterialSwitcher::SwitchMaterial);
+	}
 }
 
 
 // Called every frame
 void UMaterialSwitcher::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	
-	GetFirstPhysicalBodyInReach();
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);	
+}
+
+void UMaterialSwitcher::SwitchMaterial()
+{
+	auto HitResult = GetFirstPhysicalBodyInReach();
+	auto HitResultActor = HitResult.GetActor();
+
 }
 
 FHitResult UMaterialSwitcher::GetFirstPhysicalBodyInReach()
@@ -40,15 +56,18 @@ FHitResult UMaterialSwitcher::GetFirstPhysicalBodyInReach()
 	FVector StartPosition = GetRayStartPosition();
 	FVector EndPosition = GetRayEndPosition();
 
-	// Draws a debug line to visualize the range of the raytrace selection
-	UKismetSystemLibrary::DrawDebugLine(
-		GetWorld(),
-		StartPosition,
-		EndPosition,
-		Color.Red,
-		0.0f,
-		10.0f
-	);
+	if (ShowDebugLine)
+	{
+		// Draws a debug line to visualize the range of the raytrace selection
+		UKismetSystemLibrary::DrawDebugLine(
+			GetWorld(),
+			StartPosition,
+			EndPosition,
+			Color.Red,
+			0.0f,
+			10.0f
+		);
+	}	
 		
 	FHitResult HitResult;
 

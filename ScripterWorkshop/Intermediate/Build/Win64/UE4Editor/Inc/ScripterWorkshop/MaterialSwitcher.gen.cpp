@@ -40,6 +40,8 @@ void EmptyLinkFunctionForGeneratedCodeMaterialSwitcher() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20B00080u;
 
 
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(ShowDebugLine, UMaterialSwitcher);
+				UProperty* NewProp_ShowDebugLine = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ShowDebugLine"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(ShowDebugLine, UMaterialSwitcher), 0x0010000000000001, CPP_BOOL_PROPERTY_BITMASK(ShowDebugLine, UMaterialSwitcher), sizeof(bool), true);
 				UProperty* NewProp_RayLength = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RayLength"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(RayLength, UMaterialSwitcher), 0x0010000000000001);
 				static TCppClassTypeInfo<TCppClassTypeTraits<UMaterialSwitcher> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
@@ -50,6 +52,8 @@ void EmptyLinkFunctionForGeneratedCodeMaterialSwitcher() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MaterialSwitcher.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MaterialSwitcher.h"));
+				MetaData->SetValue(NewProp_ShowDebugLine, TEXT("Category"), TEXT("MaterialSwitcher"));
+				MetaData->SetValue(NewProp_ShowDebugLine, TEXT("ModuleRelativePath"), TEXT("MaterialSwitcher.h"));
 				MetaData->SetValue(NewProp_RayLength, TEXT("Category"), TEXT("MaterialSwitcher"));
 				MetaData->SetValue(NewProp_RayLength, TEXT("ModuleRelativePath"), TEXT("MaterialSwitcher.h"));
 #endif
@@ -58,7 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeMaterialSwitcher() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMaterialSwitcher, 2388591828);
+	IMPLEMENT_CLASS(UMaterialSwitcher, 4003998479);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UMaterialSwitcher(Z_Construct_UClass_UMaterialSwitcher, &UMaterialSwitcher::StaticClass, TEXT("/Script/ScripterWorkshop"), TEXT("UMaterialSwitcher"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMaterialSwitcher);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

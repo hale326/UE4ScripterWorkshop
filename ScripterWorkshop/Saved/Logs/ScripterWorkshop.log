@@ -1,12 +1,12 @@
-﻿Log file open, 09/07/17 15:49:50
+﻿Log file open, 09/07/17 17:43:58
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: ScripterWorkshop
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-205316851) SRandInit(-205316851).
+LogInit: Display: RandInit(-1000445035) SRandInit(-1000445035).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.146752
+LogStats: Stats thread started at 0.128988
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,1135 +103,665 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.07-13.49.53:373][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.07-13.49.53:373][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.07-13.49.53:397][  0]LogInit: Computer: ADMIN-PC
-[2017.09.07-13.49.53:397][  0]LogInit: User: Admin
-[2017.09.07-13.49.53:397][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.07-13.49.53:397][  0]LogInit: High frequency timer resolution =3.020517 MHz
-[2017.09.07-13.49.53:397][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.09.07-13.49.53:398][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.07-13.49.53:398][  0]LogMemory: Process Physical Memory: 279.77 MB used, 279.77 MB peak
-[2017.09.07-13.49.53:398][  0]LogMemory: Process Virtual Memory: 278.44 MB used, 278.44 MB peak
-[2017.09.07-13.49.53:398][  0]LogMemory: Physical Memory: 5442.07 MB used,  2733.23 MB free, 8175.30 MB total
-[2017.09.07-13.49.53:398][  0]LogMemory: Virtual Memory: 654.45 MB used,  2733.23 MB free, 8388608.00 MB total
-[2017.09.07-13.49.54:912][  0]LogInit: Using OS detected language (it-IT).
-[2017.09.07-13.49.54:912][  0]LogInit: Using OS detected locale (it-IT).
-[2017.09.07-13.49.54:921][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
-[2017.09.07-13.49.54:922][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
-[2017.09.07-13.49.59:652][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.07-13.49.59:877][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.09.07-13.49.59:877][  0]LogD3D11RHI:       1969/0/3831 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.07-13.49.59:877][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.07-13.49.59:883][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.07-13.49.59:883][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.07-13.49.59:883][  0]LogWindows: EnumDisplayDevices:
-[2017.09.07-13.49.59:883][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.09.07-13.49.59:884][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.07-13.49.59:884][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.07-13.49.59:884][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.07-13.49.59:885][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.09.07-13.49.59:885][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.09.07-13.49.59:885][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.09.07-13.49.59:885][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.09.07-13.49.59:885][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.09.07-13.49.59:885][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2017.09.07-13.49.59:885][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2017.09.07-13.49.59:885][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.07-13.50.00:037][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.07-13.50.00:054][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.07-13.50.00:056][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Intermediate/Shaders/WorkingDirectory/9964/).
-[2017.09.07-13.50.00:056][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/D088EDE84D4544FEE09F93ACB935C093/'.
-[2017.09.07-13.50.00:056][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.07-13.50.02:297][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.07-13.50.02:388][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.07-13.50.02:483][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.07-13.50.02:596][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.07-13.50.02:695][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.07-13.50.02:788][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.07-13.50.02:883][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.07-13.50.02:970][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.07-13.50.03:050][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.07-13.50.03:136][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.07-13.50.03:222][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.07-13.50.03:315][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.07-13.50.03:420][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.07-13.50.03:517][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.07-13.50.03:609][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.07-13.50.03:802][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.07-13.50.03:802][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.07-13.50.03:934][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.07-13.50.04:086][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.07-13.50.04:135][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.07-13.50.04:237][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.07-13.50.04:329][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.07-13.50.04:419][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.07-13.50.04:506][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.07-13.50.04:506][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.07-13.50.05:370][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.07-13.50.05:522][  0]LogDerivedDataCache: Loaded boot cache 0.15s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.07-13.50.05:522][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.07-13.50.05:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.07-13.50.05:523][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.07-13.50.05:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.07-13.50.05:523][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.07-13.50.05:555][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.07-13.50.05:566][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.07-13.50.05:583][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.07-13.50.05:583][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.07-13.50.05:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.07-13.50.05:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.07-13.50.06:049][  0]LogAssetRegistry: FAssetRegistry took 0.0327 seconds to start up
-[2017.09.07-13.50.06:438][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.07-13.50.06:447][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.07-13.50.07:360][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.07-13.50.07:471][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.07-13.50.07:471][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.07-13.50.07:471][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.07-13.50.07:471][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.07-13.50.07:471][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.07-13.50.08:103][  0]LogNetVersion: ScripterWorkshop , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3244171880)
-[2017.09.07-13.50.08:446][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.039094 seconds
-[2017.09.07-13.50.08:457][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.07-13.50.08:457][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.07-13.50.08:457][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.07-13.50.08:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.07-13.50.14:593][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.07-13.50.14:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.07-13.50.17:117][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.07-13.50.18:152][  0]SourceControl: Source control is disabled
-[2017.09.07-13.50.18:152][  0]SourceControl: Source control is disabled
-[2017.09.07-13.50.18:260][  0]SourceControl: Source control is disabled
-[2017.09.07-13.50.18:361][  0]SourceControl: Source control is disabled
-[2017.09.07-13.50.19:921][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.07-13.50.20:611][  0]LogOcInput: OculusInput pre-init called
-[2017.09.07-13.50.21:224][  0]LogEngine: Initializing Engine...
-[2017.09.07-13.50.21:227][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.07-13.50.21:613][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.07-13.50.21:613][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.07-13.50.21:930][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.07-13.50.21:960][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-13.50.21:995][  0]LogInit: FAudioDevice initialized.
-[2017.09.07-13.50.22:337][  0]LogDerivedDataCache: Saved boot cache 0.34s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.07-13.50.22:362][  0]LogInit: Texture streaming: Enabled
-[2017.09.07-13.50.22:680][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.07-13.50.22:689][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={F9B78AD7-47FF-547B-1ADB-7B90C755A809}
-[2017.09.07-13.50.23:330][  0]LogInit: Transaction tracking system initialized
-[2017.09.07-13.50.24:256][  0]BlueprintLog: New page: Editor Load
-[2017.09.07-13.50.26:727][  0]LocalizationService: Localization service is disabled
-[2017.09.07-13.50.29:121][  0]LogConsoleResponse: Display: 
-[2017.09.07-13.50.30:298][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.07-13.50.30:298][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.07-13.50.30:298][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.07-13.50.30:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' took 0.03s
-[2017.09.07-13.50.33:778][  0]SourceControl: Source control is disabled
-[2017.09.07-13.50.33:778][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.07-13.50.33:779][  0]LightingResults: New page: Lighting Build
-[2017.09.07-13.50.33:907][  0]MapCheck: New page: Map Check
-[2017.09.07-13.50.33:907][  0]LightingResults: New page: Lighting Build
-[2017.09.07-13.50.34:510][  0]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-13.50.34:547][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.07-13.50.34:591][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.07-13.50.34:773][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 182.395ms to complete.
-[2017.09.07-13.50.34:774][  0]LogFileHelpers: Loading map 'ScripterWorkshop' took 0.996
-[2017.09.07-13.50.35:300][  0]LogCollectionManager: Loaded 0 collections in 0.004985 seconds
-[2017.09.07-13.50.35:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' took 0.01s
-[2017.09.07-13.50.35:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' took 0.01s
-[2017.09.07-13.50.35:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' took 0.00s
-[2017.09.07-13.50.35:467][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.09.07-13.50.35:490][  0]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 2392 classes and 504 folders.
-[2017.09.07-13.50.35:670][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
-[2017.09.07-13.50.35:754][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0029 seconds. Added 0 classes and 0 folders.
-[2017.09.07-13.50.35:759][  0]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.07-13.50.35:764][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.07-13.50.35:774][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.07-13.50.35:776][  0]LogSlate: Took 0.000550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2017.09.07-13.50.36:088][  0]LogRenderer: Reallocating scene render targets to support 832x588 Format 10 NumSamples 1 (Frame:1).
-[2017.09.07-13.50.36:390][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
-[2017.09.07-13.50.36:391][  0]LogLoad: (Engine Initialization) Total time: 48.45 seconds
-[2017.09.07-13.50.36:391][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.07-13.50.36:392][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.07-13.50.36:392][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.07-13.50.36:753][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.07-13.50.37:407][  2]LogAssetRegistry: Asset discovery search completed in 31.3826 seconds
-[2017.09.07-13.50.37:411][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.07-13.50.37:412][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000407 seconds (updated 0 objects)
-[2017.09.07-14.00.44:971][140]Candidate modules for hot reload:
-[2017.09.07-14.00.44:971][140]  ScripterWorkshop
-[2017.09.07-14.00.44:971][140]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 1587 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-14.00.44:973][140]Warning: Starting HotReload took  0.0s.
-[2017.09.07-14.01.29:832][692]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 6:01:29 PM
-[2017.09.07-14.01.29:832][692]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-14.01.29:833][692]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
-[2017.09.07-14.01.29:833][692]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.07-14.01.29:834][692]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 22,2187344 seconds
-[2017.09.07-14.01.29:834][692]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2017.09.07-14.01.29:834][692]CompilerResultsLog: MaterialSwitcher.cpp
-[2017.09.07-14.01.29:834][692]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-1587.dll
-[2017.09.07-14.01.29:835][692]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-1587.lib
-[2017.09.07-14.01.29:835][692]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-1587.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-1587.suppressed.exp
-[2017.09.07-14.01.29:836][692]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-1587.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-1587.exp
-[2017.09.07-14.01.29:837][692]CompilerResultsLog: Total build time: 43,82 seconds (Local executor: 5,91 seconds)
-[2017.09.07-14.01.29:837][692]LogMainFrame: MainFrame: Module compiling took 44.877 seconds
-[2017.09.07-14.01.29:984][692]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0038 seconds. Added 5 classes and 2 folders.
-[2017.09.07-14.01.29:987][692]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2017.09.07-14.01.30:068][692]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-14.01.30:072][692]Display: HotReload took 45.1s.
-[2017.09.07-14.02.20:938][739]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-14.02.20:991][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-14.02.20:992][739]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 6:02:20 PM)
-[2017.09.07-14.02.20:992][739]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-14.02.20:997][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004369s)
-[2017.09.07-14.02.20:998][739]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-14.02.20:999][739]LogPlayLevel: PIE: World Init took: (0.001925s)
-[2017.09.07-14.02.21:000][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007413s)
-[2017.09.07-14.02.21:026][739]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-14.02.21:042][739]LogInit: FAudioDevice initialized.
-[2017.09.07-14.02.21:129][739]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-14.02.21:133][739]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-16.02.21
-[2017.09.07-14.02.21:134][739]LogWorld: Bringing up level for play took: 0.002456
-[2017.09.07-14.02.21:253][739]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0040 seconds. Added 11 classes and 0 folders.
-[2017.09.07-14.02.21:258][739]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.716
-[2017.09.07-14.02.30:108][648]LogSlate: Took 0.009319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.07-14.02.40:588][384]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.07-14.02.41:418][384]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.07-14.02.41:752][384]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 113 classes and 0 folders.
-[2017.09.07-14.02.43:794][384]LogSlate: Took 0.010052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.07-14.02.44:826][423]LogSlate: Took 0.013163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.07-14.02.53:512][278]BlueprintLog: New page: Compile FirstPersonCharacter_BP
-[2017.09.07-14.02.55:428][421]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-14.02.55:464][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-14.02.55:464][421]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 6:02:55 PM)
-[2017.09.07-14.02.55:464][421]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-14.02.55:467][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002614s)
-[2017.09.07-14.02.55:468][421]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-14.02.55:469][421]LogPlayLevel: PIE: World Init took: (0.001323s)
-[2017.09.07-14.02.55:469][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.004694s)
-[2017.09.07-14.02.55:507][421]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-14.02.55:521][421]LogInit: FAudioDevice initialized.
-[2017.09.07-14.02.55:557][421]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-14.02.55:559][421]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-16.02.55
-[2017.09.07-14.02.55:560][421]LogWorld: Bringing up level for play took: 0.002065
-[2017.09.07-14.02.55:563][421]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.411
-[2017.09.07-14.07.29:926][838]Candidate modules for hot reload:
-[2017.09.07-14.07.29:927][838]  ScripterWorkshop
-[2017.09.07-14.07.29:927][838]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 2191 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-14.07.29:929][838]Warning: Starting HotReload took  0.0s.
-[2017.09.07-14.07.58:160][ 37]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 6:07:58 PM
-[2017.09.07-14.07.58:160][ 37]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-14.07.58:161][ 37]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
-[2017.09.07-14.07.58:161][ 37]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.07-14.07.58:162][ 37]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 12,2335908 seconds
-[2017.09.07-14.07.58:162][ 37]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2017.09.07-14.07.58:162][ 37]CompilerResultsLog: MaterialSwitcher.cpp
-[2017.09.07-14.07.58:163][ 37]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-2191.dll
-[2017.09.07-14.07.58:163][ 37]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-2191.lib
-[2017.09.07-14.07.58:163][ 37]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2191.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2191.exp
-[2017.09.07-14.07.58:164][ 37]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2191.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2191.suppressed.exp
-[2017.09.07-14.07.58:165][ 37]CompilerResultsLog: Total build time: 26,33 seconds (Local executor: 3,62 seconds)
-[2017.09.07-14.07.58:165][ 37]LogMainFrame: MainFrame: Module compiling took 28.244 seconds
-[2017.09.07-14.07.58:307][ 37]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0027 seconds. Added 5 classes and 2 folders.
-[2017.09.07-14.07.58:310][ 37]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2017.09.07-14.07.59:038][ 37]LogContentBrowser: Native class hierarchy populated in 0.0224 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-14.07.59:049][ 37]Display: HotReload took 29.2s.
-[2017.09.07-14.08.02:962][169]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-14.08.02:984][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-14.08.02:985][169]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 6:08:02 PM)
-[2017.09.07-14.08.02:985][169]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-14.08.02:988][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002683s)
-[2017.09.07-14.08.02:989][169]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-14.08.02:989][169]LogPlayLevel: PIE: World Init took: (0.001368s)
-[2017.09.07-14.08.02:990][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.004791s)
-[2017.09.07-14.08.03:058][169]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-14.08.03:074][169]LogInit: FAudioDevice initialized.
-[2017.09.07-14.08.03:107][169]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-14.08.03:109][169]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-16.08.03
-[2017.09.07-14.08.03:109][169]LogWorld: Bringing up level for play took: 0.001662
-[2017.09.07-14.08.03:113][169]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.866
-[2017.09.07-14.08.20:481][ 40]LogActorFactory: Actor Factory created SM_Chair
-[2017.09.07-14.08.21:186][107]LogActorFactory: Actor Factory created SM_Chair
-[2017.09.07-14.08.22:255][155]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-14.08.22:284][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-14.08.22:285][155]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 6:08:22 PM)
-[2017.09.07-14.08.22:285][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-14.08.22:289][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003788s)
-[2017.09.07-14.08.22:291][155]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-14.08.22:291][155]LogPlayLevel: PIE: World Init took: (0.001647s)
-[2017.09.07-14.08.22:292][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006487s)
-[2017.09.07-14.08.22:349][155]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-14.08.22:365][155]LogInit: FAudioDevice initialized.
-[2017.09.07-14.08.22:395][155]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-14.08.22:397][155]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-16.08.22
-[2017.09.07-14.08.22:398][155]LogWorld: Bringing up level for play took: 0.001683
-[2017.09.07-14.08.22:401][155]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.422
-[2017.09.07-14.08.33:546][334]LogRenderer: Reallocating scene render targets to support 832x844 Format 10 NumSamples 1 (Frame:1).
-[2017.09.07-14.09.49:326][313]LogEditorTransaction: Undo Set actor scale
-[2017.09.07-14.09.49:391][313]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.07-14.09.53:991][831]LogEditorTransaction: Undo Set actor scale
-[2017.09.07-14.09.54:841][909]LogEditorTransaction: Undo Set actor scale
-[2017.09.07-14.10.12:686][756]LogEditorTransaction: Undo Modify Component(s)
-[2017.09.07-14.10.12:690][756]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.FirstPersonCharacter_BP_C_4.CollisionCylinder) Component already registered.
-[2017.09.07-14.39.51:066][513]Candidate modules for hot reload:
-[2017.09.07-14.39.51:066][513]  ScripterWorkshop
-[2017.09.07-14.39.51:067][513]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 2388 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-14.39.51:080][513]Warning: Starting HotReload took  0.1s.
-[2017.09.07-14.39.52:197][589]BlueprintLog: New page: Compile FirstPersonCharacter_BP
-[2017.09.07-14.40.12:113][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.09.07-14.42.20:744][401]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 6:42:20 PM
-[2017.09.07-14.42.20:745][401]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-14.42.20:745][401]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
-[2017.09.07-14.42.20:745][401]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.07-14.42.20:746][401]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 13,419301 seconds
-[2017.09.07-14.42.20:746][401]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2017.09.07-14.42.20:746][401]CompilerResultsLog: MaterialSwitcher.cpp
-[2017.09.07-14.42.20:746][401]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-2388.dll
-[2017.09.07-14.42.20:746][401]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-2388.lib
-[2017.09.07-14.42.20:746][401]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2388.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2388.exp
-[2017.09.07-14.42.20:747][401]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2388.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2388.suppressed.exp
-[2017.09.07-14.42.20:747][401]CompilerResultsLog: Total build time: 127,11 seconds (Local executor: 69,65 seconds)
-[2017.09.07-14.42.20:748][401]LogMainFrame: MainFrame: Module compiling took 149.693 seconds
-[2017.09.07-14.42.21:986][401]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0035 seconds. Added 5 classes and 2 folders.
-[2017.09.07-14.42.21:990][401]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2017.09.07-14.42.22:533][401]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-14.42.22:539][401]Display: HotReload took 151.5s.
-[2017.09.07-14.42.26:468][468]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-14.42.26:492][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-14.42.26:492][468]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 6:42:26 PM)
-[2017.09.07-14.42.26:493][468]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-14.42.26:496][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
-[2017.09.07-14.42.26:497][468]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-14.42.26:498][468]LogPlayLevel: PIE: World Init took: (0.001679s)
-[2017.09.07-14.42.26:498][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005544s)
-[2017.09.07-14.42.26:592][468]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-14.42.26:629][468]LogInit: FAudioDevice initialized.
-[2017.09.07-14.42.26:665][468]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-14.42.26:667][468]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-16.42.26
-[2017.09.07-14.42.26:668][468]LogWorld: Bringing up level for play took: 0.002571
-[2017.09.07-14.42.26:672][468]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.67
-[2017.09.07-14.43.23:333][ 31]Candidate modules for hot reload:
-[2017.09.07-14.43.23:333][ 31]  ScripterWorkshop
-[2017.09.07-14.43.23:333][ 31]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 2465 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-14.43.23:336][ 31]Warning: Starting HotReload took  0.0s.
-[2017.09.07-14.43.51:606][481]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 6:43:51 PM
-[2017.09.07-14.43.51:606][481]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-14.43.51:607][481]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
-[2017.09.07-14.43.51:607][481]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.07-14.43.51:607][481]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 11,6736499 seconds
-[2017.09.07-14.43.51:607][481]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2017.09.07-14.43.51:608][481]CompilerResultsLog: MaterialSwitcher.cpp
-[2017.09.07-14.43.51:608][481]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-2465.dll
-[2017.09.07-14.43.51:608][481]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-2465.lib
-[2017.09.07-14.43.51:608][481]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2465.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2465.suppressed.exp
-[2017.09.07-14.43.51:609][481]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2465.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-2465.exp
-[2017.09.07-14.43.51:609][481]CompilerResultsLog: Total build time: 26,64 seconds (Local executor: 3,54 seconds)
-[2017.09.07-14.43.51:609][481]LogMainFrame: MainFrame: Module compiling took 28.282 seconds
-[2017.09.07-14.43.51:736][481]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0026 seconds. Added 5 classes and 2 folders.
-[2017.09.07-14.43.51:740][481]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2017.09.07-14.43.52:479][481]LogContentBrowser: Native class hierarchy populated in 0.0237 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-14.43.52:490][481]Display: HotReload took 29.2s.
-[2017.09.07-14.44.10:317][624]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-14.44.10:341][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-14.44.10:342][624]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 6:44:10 PM)
-[2017.09.07-14.44.10:342][624]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-14.44.10:347][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005149s)
-[2017.09.07-14.44.10:349][624]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-14.44.10:350][624]LogPlayLevel: PIE: World Init took: (0.001748s)
-[2017.09.07-14.44.10:350][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.008249s)
-[2017.09.07-14.44.10:474][624]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-14.44.10:490][624]LogInit: FAudioDevice initialized.
-[2017.09.07-14.44.10:525][624]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-14.44.10:527][624]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-16.44.10
-[2017.09.07-14.44.10:528][624]LogWorld: Bringing up level for play took: 0.002221
-[2017.09.07-14.44.10:532][624]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.528
-[2017.09.07-15.05.04:267][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2017.09.07-15.05.20:667][851]LogRenderer: Reallocating scene render targets to support 952x868 Format 10 NumSamples 1 (Frame:1).
-[2017.09.07-15.05.50:034][540]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.05.50:060][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.05.50:061][540]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:05:50 PM)
-[2017.09.07-15.05.50:061][540]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.05.50:065][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003556s)
-[2017.09.07-15.05.50:066][540]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.05.50:067][540]LogPlayLevel: PIE: World Init took: (0.001842s)
-[2017.09.07-15.05.50:067][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006403s)
-[2017.09.07-15.05.50:147][540]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.05.50:165][540]LogInit: FAudioDevice initialized.
-[2017.09.07-15.05.50:203][540]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.05.50:206][540]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.05.50
-[2017.09.07-15.05.50:207][540]LogWorld: Bringing up level for play took: 0.002720
-[2017.09.07-15.05.50:210][540]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.192
-[2017.09.07-15.07.49:933][ 21]Candidate modules for hot reload:
-[2017.09.07-15.07.49:934][ 21]  ScripterWorkshop
-[2017.09.07-15.07.49:934][ 21]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 3134 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-15.07.49:996][ 21]Warning: Starting HotReload took  0.1s.
-[2017.09.07-15.08.49:058][391]LogEditorTransaction: Undo Set actor scale
-[2017.09.07-15.08.59:364][182]BlueprintLog: New page: Compile FirstPersonCharacter_BP
-[2017.09.07-15.09.01:976][287]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.09.02:005][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.09.02:006][287]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:09:02 PM)
-[2017.09.07-15.09.02:006][287]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.09.02:012][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006079s)
-[2017.09.07-15.09.02:016][287]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.09.02:017][287]LogPlayLevel: PIE: World Init took: (0.003812s)
-[2017.09.07-15.09.02:017][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.010934s)
-[2017.09.07-15.09.02:071][287]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.09.02:244][287]LogInit: FAudioDevice initialized.
-[2017.09.07-15.09.02:278][287]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.09.02:281][287]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.09.02
-[2017.09.07-15.09.02:282][287]LogWorld: Bringing up level for play took: 0.002630
-[2017.09.07-15.09.02:287][287]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.266
-[2017.09.07-15.10.07:668][351]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.10.07:693][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.10.07:694][351]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:10:07 PM)
-[2017.09.07-15.10.07:694][351]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.10.07:697][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003443s)
-[2017.09.07-15.10.07:699][351]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.10.07:699][351]LogPlayLevel: PIE: World Init took: (0.001551s)
-[2017.09.07-15.10.07:700][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005941s)
-[2017.09.07-15.10.07:742][351]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.10.07:757][351]LogInit: FAudioDevice initialized.
-[2017.09.07-15.10.07:791][351]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.10.07:793][351]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.10.07
-[2017.09.07-15.10.07:794][351]LogWorld: Bringing up level for play took: 0.002192
-[2017.09.07-15.10.07:798][351]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.223
-[2017.09.07-15.10.26:040][582]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_BP_C (FirstPersonCharacter_BP)
-[2017.09.07-15.10.54:233][168]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 7:10:54 PM
-[2017.09.07-15.10.54:233][168]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-15.10.54:233][168]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
-[2017.09.07-15.10.54:234][168]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.07-15.10.54:235][168]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 22,8768909 seconds
-[2017.09.07-15.10.54:235][168]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2017.09.07-15.10.54:235][168]CompilerResultsLog: MaterialSwitcher.cpp
-[2017.09.07-15.10.54:235][168]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-3134.dll
-[2017.09.07-15.10.54:235][168]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-3134.lib
-[2017.09.07-15.10.54:236][168]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3134.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3134.exp
-[2017.09.07-15.10.54:237][168]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3134.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3134.suppressed.exp
-[2017.09.07-15.10.54:237][168]CompilerResultsLog: Total build time: 166,28 seconds (Local executor: 91,25 seconds)
-[2017.09.07-15.10.54:238][168]LogMainFrame: MainFrame: Module compiling took 184.312 seconds
-[2017.09.07-15.10.54:398][168]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0027 seconds. Added 5 classes and 2 folders.
-[2017.09.07-15.10.54:402][168]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2017.09.07-15.10.54:983][168]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-15.10.54:990][168]Display: HotReload took 185.1s.
-[2017.09.07-15.11.14:506][789]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.11.14:534][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.11.14:534][789]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:11:14 PM)
-[2017.09.07-15.11.14:535][789]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.11.14:539][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003465s)
-[2017.09.07-15.11.14:541][789]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.11.14:542][789]LogPlayLevel: PIE: World Init took: (0.002608s)
-[2017.09.07-15.11.14:542][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007082s)
-[2017.09.07-15.11.14:625][789]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.11.14:662][789]LogInit: FAudioDevice initialized.
-[2017.09.07-15.11.14:697][789]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.11.14:699][789]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.11.14
-[2017.09.07-15.11.14:700][789]LogWorld: Bringing up level for play took: 0.002238
-[2017.09.07-15.11.14:705][789]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.682
-[2017.09.07-15.11.21:413][405]Candidate modules for hot reload:
-[2017.09.07-15.11.21:413][405]  ScripterWorkshop
-[2017.09.07-15.11.21:414][405]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 4753 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-15.11.21:416][405]Warning: Starting HotReload took  0.0s.
-[2017.09.07-15.11.33:307][702]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 7:11:33 PM
-[2017.09.07-15.11.33:307][702]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-15.11.33:307][702]CompilerResultsLog: Target is up to date
-[2017.09.07-15.11.33:307][702]CompilerResultsLog: Total build time: 10,17 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2017.09.07-15.11.33:307][702]LogMainFrame: MainFrame: Module compiling took 11.898 seconds
-[2017.09.07-15.11.33:879][702]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-15.11.33:887][702]Display: HotReload took 12.5s.
-[2017.09.07-15.11.36:949][791]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.11.36:976][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.11.36:977][791]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:11:36 PM)
-[2017.09.07-15.11.36:977][791]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.11.36:980][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002598s)
-[2017.09.07-15.11.36:981][791]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.11.36:981][791]LogPlayLevel: PIE: World Init took: (0.001548s)
-[2017.09.07-15.11.36:982][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005036s)
-[2017.09.07-15.11.37:101][791]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.11.37:115][791]LogInit: FAudioDevice initialized.
-[2017.09.07-15.11.37:148][791]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.11.37:150][791]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.11.37
-[2017.09.07-15.11.37:151][791]LogWorld: Bringing up level for play took: 0.001747
-[2017.09.07-15.11.37:155][791]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 1.132
-[2017.09.07-15.11.46:560][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2017.09.07-15.12.15:974][189]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.12.15:996][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.12.15:997][189]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:12:15 PM)
-[2017.09.07-15.12.15:997][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.12.16:001][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003459s)
-[2017.09.07-15.12.16:002][189]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.12.16:003][189]LogPlayLevel: PIE: World Init took: (0.001556s)
-[2017.09.07-15.12.16:003][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006107s)
-[2017.09.07-15.12.16:056][189]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.12.16:102][189]LogInit: FAudioDevice initialized.
-[2017.09.07-15.12.16:144][189]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.12.16:146][189]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.12.16
-[2017.09.07-15.12.16:147][189]LogWorld: Bringing up level for play took: 0.002425
-[2017.09.07-15.12.16:151][189]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.128
-[2017.09.07-15.12.17:113][263]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:126][264]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:137][265]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:149][266]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:160][267]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:172][268]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:182][269]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:192][270]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:201][271]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:212][272]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:222][273]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:232][274]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:243][275]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:252][276]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:262][277]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:273][278]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:283][279]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:292][280]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:304][281]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:314][282]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:324][283]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:334][284]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:344][285]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:356][286]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:367][287]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:378][288]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:390][289]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:402][290]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:412][291]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:453][292]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:477][293]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:489][294]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:499][295]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:510][296]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:522][297]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:532][298]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:543][299]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:556][300]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:576][301]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:587][302]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:598][303]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:610][304]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:621][305]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:629][306]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:637][307]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:646][308]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:656][309]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:667][310]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:677][311]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:687][312]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:698][313]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:709][314]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:720][315]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:731][316]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:742][317]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:753][318]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:764][319]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:775][320]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:784][321]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:795][322]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:807][323]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:817][324]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:827][325]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:837][326]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:846][327]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:856][328]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:866][329]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:876][330]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:885][331]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:896][332]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:906][333]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:915][334]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:926][335]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:936][336]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:946][337]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:957][338]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:965][339]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:974][340]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:982][341]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.17:991][342]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:000][343]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:008][344]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:017][345]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:027][346]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:036][347]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:044][348]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:053][349]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:062][350]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:071][351]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:079][352]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:089][353]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:097][354]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:106][355]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:116][356]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:125][357]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:133][358]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:142][359]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:151][360]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:160][361]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:168][362]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:177][363]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:187][364]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:196][365]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:204][366]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:212][367]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:222][368]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:230][369]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:239][370]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:247][371]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:256][372]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:265][373]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:275][374]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:284][375]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:293][376]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:301][377]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:310][378]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:319][379]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:327][380]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:336][381]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:344][382]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:353][383]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:362][384]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:370][385]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:380][386]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:389][387]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:397][388]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:406][389]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:415][390]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:423][391]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:432][392]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:441][393]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:449][394]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:457][395]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:466][396]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:475][397]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:482][398]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:491][399]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:500][400]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:509][401]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:520][402]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:529][403]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:538][404]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:548][405]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:557][406]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:566][407]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:575][408]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:584][409]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:593][410]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:602][411]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:611][412]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:620][413]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:629][414]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:638][415]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:647][416]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:656][417]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:665][418]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:674][419]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:683][420]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:691][421]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:701][422]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:709][423]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:718][424]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:727][425]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:737][426]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:745][427]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:753][428]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:761][429]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:772][430]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:780][431]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:789][432]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:797][433]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:808][434]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:817][435]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:825][436]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:834][437]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:842][438]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:850][439]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:859][440]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:869][441]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:877][442]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:885][443]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:894][444]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:902][445]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:911][446]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:920][447]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:929][448]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.12.18:938][449]LogTemp: Warning: Detected collision with SM_Chair_2
-[2017.09.07-15.17.26:655][794]Candidate modules for hot reload:
-[2017.09.07-15.17.26:655][794]  ScripterWorkshop
-[2017.09.07-15.17.26:655][794]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 3602 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-15.17.26:658][794]Warning: Starting HotReload took  0.0s.
-[2017.09.07-15.17.39:710][168]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 7:17:39 PM
-[2017.09.07-15.17.39:710][168]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-15.17.39:710][168]CompilerResultsLog: Target is up to date
-[2017.09.07-15.17.39:710][168]CompilerResultsLog: Total build time: 11,27 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2017.09.07-15.17.39:711][168]LogMainFrame: MainFrame: Module compiling took 13.060 seconds
-[2017.09.07-15.17.40:290][168]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-15.17.40:298][168]Display: HotReload took 13.7s.
-[2017.09.07-15.17.43:150][259]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.17.43:179][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.17.43:179][259]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:17:43 PM)
-[2017.09.07-15.17.43:180][259]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.17.43:184][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003746s)
-[2017.09.07-15.17.43:185][259]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.17.43:186][259]LogPlayLevel: PIE: World Init took: (0.001682s)
-[2017.09.07-15.17.43:186][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006437s)
-[2017.09.07-15.17.43:300][259]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.17.43:315][259]LogInit: FAudioDevice initialized.
-[2017.09.07-15.17.43:347][259]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.17.43:349][259]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.17.43
-[2017.09.07-15.17.43:349][259]LogWorld: Bringing up level for play took: 0.001796
-[2017.09.07-15.17.43:354][259]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.673
-[2017.09.07-15.18.33:159][436]Candidate modules for hot reload:
-[2017.09.07-15.18.33:159][436]  ScripterWorkshop
-[2017.09.07-15.18.33:159][436]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 8991 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
-[2017.09.07-15.18.33:161][436]Warning: Starting HotReload took  0.0s.
-[2017.09.07-15.19.01:084][601]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 7:19:01 PM
-[2017.09.07-15.19.01:084][601]CompilerResultsLog: Compiling game modules for hot reload
-[2017.09.07-15.19.01:085][601]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
-[2017.09.07-15.19.01:085][601]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.09.07-15.19.01:085][601]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 12,4236503 seconds
-[2017.09.07-15.19.01:086][601]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2017.09.07-15.19.01:086][601]CompilerResultsLog: MaterialSwitcher.cpp
-[2017.09.07-15.19.01:086][601]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-8991.dll
-[2017.09.07-15.19.01:086][601]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-8991.lib
-[2017.09.07-15.19.01:086][601]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8991.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8991.exp
-[2017.09.07-15.19.01:087][601]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8991.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8991.suppressed.exp
-[2017.09.07-15.19.01:087][601]CompilerResultsLog: Total build time: 27,23 seconds (Local executor: 3,63 seconds)
-[2017.09.07-15.19.01:088][601]LogMainFrame: MainFrame: Module compiling took 27.935 seconds
-[2017.09.07-15.19.01:286][601]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0027 seconds. Added 5 classes and 2 folders.
-[2017.09.07-15.19.01:289][601]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2017.09.07-15.19.01:999][601]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2393 classes and 506 folders.
-[2017.09.07-15.19.02:009][601]Display: HotReload took 28.9s.
-[2017.09.07-15.19.06:782][867]LogTemp: Repeating last play command: Selected Viewport
-[2017.09.07-15.19.06:804][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.07-15.19.06:804][867]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 7:19:06 PM)
-[2017.09.07-15.19.06:805][867]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
-[2017.09.07-15.19.06:808][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002966s)
-[2017.09.07-15.19.06:809][867]LogAIModule: Creating AISystem for world ScripterWorkshop
-[2017.09.07-15.19.06:810][867]LogPlayLevel: PIE: World Init took: (0.001532s)
-[2017.09.07-15.19.06:810][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005423s)
-[2017.09.07-15.19.06:919][867]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.07-15.19.06:955][867]LogInit: FAudioDevice initialized.
-[2017.09.07-15.19.06:987][867]LogLoad: Game class is 'BasicFirstPerson_C'
-[2017.09.07-15.19.06:990][867]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-17.19.06
-[2017.09.07-15.19.06:990][867]LogWorld: Bringing up level for play took: 0.002290
-[2017.09.07-15.19.06:995][867]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.967
-[2017.09.07-15.19.07:672][928]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:682][929]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:693][930]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:703][931]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:714][932]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:724][933]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:735][934]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:746][935]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:759][936]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:771][937]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:783][938]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:792][939]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:806][940]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:819][941]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:830][942]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:842][943]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:852][944]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:865][945]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:876][946]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:888][947]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:902][948]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:912][949]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:924][950]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:936][951]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:947][952]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:958][953]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:968][954]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:978][955]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.07:990][956]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:003][957]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:012][958]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:024][959]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:034][960]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:045][961]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:056][962]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:069][963]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:079][964]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:090][965]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:100][966]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:111][967]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:124][968]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:134][969]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:144][970]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:155][971]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:167][972]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:177][973]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:188][974]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:201][975]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:210][976]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:221][977]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:232][978]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:243][979]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:254][980]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:264][981]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:274][982]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:285][983]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:295][984]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:306][985]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:317][986]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:327][987]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:337][988]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:348][989]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:358][990]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:368][991]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:380][992]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:391][993]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
-[2017.09.07-15.19.08:742][ 22]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:752][ 23]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:762][ 24]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:775][ 25]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:785][ 26]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:796][ 27]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:806][ 28]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:816][ 29]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:827][ 30]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:838][ 31]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:848][ 32]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:859][ 33]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:871][ 34]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:880][ 35]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:890][ 36]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:902][ 37]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:912][ 38]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:921][ 39]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:932][ 40]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:941][ 41]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:953][ 42]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:965][ 43]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:975][ 44]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:983][ 45]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.08:992][ 46]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:000][ 47]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:009][ 48]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:018][ 49]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:028][ 50]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:040][ 51]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:049][ 52]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:059][ 53]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:067][ 54]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:077][ 55]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:088][ 56]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:097][ 57]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:106][ 58]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:114][ 59]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:124][ 60]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:133][ 61]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:142][ 62]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:152][ 63]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:161][ 64]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:170][ 65]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:180][ 66]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:188][ 67]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:200][ 68]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:210][ 69]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:219][ 70]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:228][ 71]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:238][ 72]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:249][ 73]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:260][ 74]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.09:271][ 75]LogTemp: Warning: Detected collision with Floor
-[2017.09.07-15.19.17:670][911]BlueprintLog: New page: Compile FirstPersonCharacter_BP
-[2017.09.07-15.23.03:083][417]LogSavePackage: Save=210.00ms
-[2017.09.07-15.23.03:083][417]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/ScripterWorkshop3D62E0C54A9F4C6540610BAB554B831A.tmp' to '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap'
-[2017.09.07-15.23.03:177][417]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap
-[2017.09.07-15.23.03:241][417]LogFileHelpers: Saving map 'ScripterWorkshop' took 6.010
-[2017.09.07-15.23.03:463][417]LogSavePackage: Save=161.07ms
-[2017.09.07-15.23.03:463][417]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/FirstPersonCharacter_BPE2CCAE5444783C673BCF19938B649DC3.tmp' to '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Blueprint/FirstPersonCharacter_BP.uasset'
-[2017.09.07-15.23.03:468][417]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Blueprint/FirstPersonCharacter_BP.uasset
-[2017.09.07-15.23.09:810][908]Cmd: QUIT_EDITOR
-[2017.09.07-15.23.10:650][908]LogExit: Preparing to exit.
-[2017.09.07-15.23.12:504][908]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' was aborted.
-[2017.09.07-15.23.12:754][908]LogExit: Editor shut down
-[2017.09.07-15.23.12:768][908]LogExit: Transaction tracking system shut down
-[2017.09.07-15.23.13:109][908]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.07-15.23.13:109][908]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' was aborted.
-[2017.09.07-15.23.13:136][908]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.07-15.23.13:136][908]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.09.07-15.23.13:136][908]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.09.07-15.23.20:442][908]LogExit: Object subsystem successfully closed.
-[2017.09.07-15.23.24:831][908]LogD3D11RHI: Shutdown
-[2017.09.07-15.23.24:905][908]LogD3D11RHI: CleanupD3DDevice
-[2017.09.07-15.23.29:255][908]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.07-15.23.32:042][908]LogModuleManager: Shutting down and abandoning module ScripterWorkshop (546)
-[2017.09.07-15.23.32:042][908]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (544)
-[2017.09.07-15.23.32:042][908]LogModuleManager: Shutting down and abandoning module BlueprintGraph (539)
-[2017.09.07-15.23.32:042][908]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (537)
-[2017.09.07-15.23.32:071][908]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (535)
-[2017.09.07-15.23.32:071][908]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2017.09.07-15.23.32:071][908]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
-[2017.09.07-15.23.32:200][908]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.09.07-15.23.32:202][908]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
-[2017.09.07-15.23.32:202][908]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
-[2017.09.07-15.23.32:202][908]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
-[2017.09.07-15.23.32:289][908]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' was aborted.
-[2017.09.07-15.23.32:289][908]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' was aborted.
-[2017.09.07-15.23.32:289][908]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' was aborted.
-[2017.09.07-15.23.32:289][908]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
-[2017.09.07-15.23.32:324][908]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2017.09.07-15.23.32:402][908]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2017.09.07-15.23.32:403][908]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2017.09.07-15.23.32:546][908]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2017.09.07-15.23.32:547][908]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2017.09.07-15.23.32:547][908]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2017.09.07-15.23.32:547][908]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2017.09.07-15.23.32:547][908]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2017.09.07-15.23.32:547][908]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2017.09.07-15.23.32:577][908]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2017.09.07-15.23.32:577][908]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2017.09.07-15.23.32:577][908]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2017.09.07-15.23.32:598][908]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2017.09.07-15.23.32:625][908]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2017.09.07-15.23.32:691][908]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module Media (479)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2017.09.07-15.23.32:924][908]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2017.09.07-15.23.32:964][908]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2017.09.07-15.23.32:964][908]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2017.09.07-15.23.32:964][908]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2017.09.07-15.23.32:964][908]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2017.09.07-15.23.32:964][908]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2017.09.07-15.23.33:066][908]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2017.09.07-15.23.33:132][908]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2017.09.07-15.23.33:157][908]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2017.09.07-15.23.33:218][908]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2017.09.07-15.23.33:218][908]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2017.09.07-15.23.33:218][908]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2017.09.07-15.23.33:218][908]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2017.09.07-15.23.33:237][908]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2017.09.07-15.23.33:237][908]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2017.09.07-15.23.33:237][908]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2017.09.07-15.23.33:237][908]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2017.09.07-15.23.33:260][908]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2017.09.07-15.23.33:282][908]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2017.09.07-15.23.33:282][908]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2017.09.07-15.23.33:312][908]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2017.09.07-15.23.33:312][908]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2017.09.07-15.23.33:352][908]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2017.09.07-15.23.33:381][908]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2017.09.07-15.23.33:381][908]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2017.09.07-15.23.33:397][908]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2017.09.07-15.23.33:397][908]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2017.09.07-15.23.33:444][908]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2017.09.07-15.23.33:444][908]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2017.09.07-15.23.33:444][908]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2017.09.07-15.23.33:444][908]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2017.09.07-15.23.33:444][908]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2017.09.07-15.23.33:536][908]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2017.09.07-15.23.33:545][908]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2017.09.07-15.23.33:555][908]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2017.09.07-15.23.33:577][908]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2017.09.07-15.23.33:640][908]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2017.09.07-15.23.33:706][908]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2017.09.07-15.23.33:771][908]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2017.09.07-15.23.33:880][908]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2017.09.07-15.23.34:030][908]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2017.09.07-15.23.34:030][908]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2017.09.07-15.23.34:030][908]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2017.09.07-15.23.34:031][908]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2017.09.07-15.23.34:098][908]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2017.09.07-15.23.34:099][908]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2017.09.07-15.23.34:099][908]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2017.09.07-15.23.34:204][908]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2017.09.07-15.23.34:204][908]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2017.09.07-15.23.34:231][908]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2017.09.07-15.23.34:273][908]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2017.09.07-15.23.34:437][908]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2017.09.07-15.23.34:438][908]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2017.09.07-15.23.34:478][908]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2017.09.07-15.23.34:479][908]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2017.09.07-15.23.34:479][908]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2017.09.07-15.23.34:479][908]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2017.09.07-15.23.34:479][908]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2017.09.07-15.23.34:609][908]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2017.09.07-15.23.34:618][908]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2017.09.07-15.23.34:630][908]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2017.09.07-15.23.34:701][908]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2017.09.07-15.23.34:701][908]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2017.09.07-15.23.34:701][908]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2017.09.07-15.23.34:701][908]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2017.09.07-15.23.34:729][908]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2017.09.07-15.23.34:729][908]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2017.09.07-15.23.34:729][908]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2017.09.07-15.23.34:749][908]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2017.09.07-15.23.34:749][908]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2017.09.07-15.23.34:749][908]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2017.09.07-15.23.34:967][908]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2017.09.07-15.23.34:967][908]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2017.09.07-15.23.34:998][908]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2017.09.07-15.23.34:998][908]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2017.09.07-15.23.34:998][908]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2017.09.07-15.23.34:998][908]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2017.09.07-15.23.34:998][908]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2017.09.07-15.23.35:154][908]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2017.09.07-15.23.35:243][908]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2017.09.07-15.23.35:244][908]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2017.09.07-15.23.35:305][908]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2017.09.07-15.23.35:305][908]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2017.09.07-15.23.35:317][908]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2017.09.07-15.23.35:385][908]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2017.09.07-15.23.35:455][908]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2017.09.07-15.23.35:512][908]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2017.09.07-15.23.35:512][908]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2017.09.07-15.23.35:512][908]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2017.09.07-15.23.35:512][908]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2017.09.07-15.23.35:529][908]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2017.09.07-15.23.35:541][908]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2017.09.07-15.23.35:604][908]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2017.09.07-15.23.35:759][908]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2017.09.07-15.23.35:759][908]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2017.09.07-15.23.35:759][908]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Binaries/Win64' was aborted.
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.09.07-15.23.35:760][908]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.09.07-15.23.35:772][908]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.09.07-15.23.35:872][908]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.09.07-15.23.36:006][908]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.09.07-15.23.36:038][908]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.09.07-15.23.36:038][908]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.09.07-15.23.36:038][908]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.09.07-15.23.36:118][908]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.09.07-15.23.36:118][908]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.09.07-15.23.36:119][908]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.09.07-15.23.36:119][908]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.09.07-15.23.36:146][908]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.09.07-15.23.36:320][908]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.09.07-15.23.36:444][908]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.09.07-15.23.36:444][908]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.09.07-15.23.36:444][908]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.09.07-15.23.36:489][908]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.09.07-15.23.36:489][908]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.09.07-15.23.36:502][908]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.09.07-15.23.36:502][908]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.09.07-15.23.36:565][908]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.09.07-15.23.36:602][908]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.09.07-15.23.36:603][908]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.09.07-15.23.36:788][908]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.09.07-15.23.36:788][908]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.09.07-15.23.36:857][908]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.09.07-15.23.36:857][908]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.09.07-15.23.36:965][908]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.09.07-15.23.37:191][908]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.09.07-15.23.37:215][908]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.09.07-15.23.37:215][908]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.09.07-15.23.37:407][908]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.09.07-15.23.37:407][908]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.09.07-15.23.37:414][908]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.09.07-15.23.37:527][908]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.09.07-15.23.37:555][908]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.09.07-15.23.37:555][908]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.09.07-15.23.37:613][908]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.09.07-15.23.37:613][908]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.09.07-15.23.37:686][908]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.09.07-15.23.37:729][908]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
-[2017.09.07-15.23.37:729][908]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.09.07-15.23.37:730][908]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.09.07-15.23.37:740][908]LogDerivedDataCache: Shutdown
-[2017.09.07-15.23.37:775][908]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.09.07-15.23.37:775][908]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.09.07-15.23.37:890][908]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.09.07-15.23.37:999][908]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.09.07-15.23.38:044][908]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.09.07-15.23.38:121][908]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.09.07-15.23.38:170][908]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.09.07-15.23.38:170][908]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.09.07-15.23.38:170][908]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.09.07-15.23.38:182][908]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.09.07-15.23.38:226][908]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.09.07-15.23.38:227][908]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.09.07-15.23.38:228][908]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.09.07-15.23.38:278][908]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.09.07-15.23.38:278][908]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.09.07-15.23.38:278][908]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.09.07-15.23.38:345][908]LogOnline: Display: Unloading online subsystem: NULL
-[2017.09.07-15.23.38:504][908]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.09.07-15.23.38:568][908]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.09.07-15.23.38:601][908]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.09.07-15.23.38:626][908]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B56454A29-4B59-97E4-3BB2-E8954E5271B6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=e596fd8543d8b022c6c53ab13e8a51b7%7C2bdd1138e9c84a049480766a9822828c%7C2095de21-1a6e-4602-8a10-60df676f333c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.07-15.23.38:641][908]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.09.07-15.23.38:866][908]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.09.07-15.23.38:960][908]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.09.07-15.23.38:960][908]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.09.07-15.23.39:115][908]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.09.07-15.23.39:257][908]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.09.07-15.23.39:258][908]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.09.07-15.23.39:258][908]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.09.07-15.23.39:374][908]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.09.07-15.23.39:405][908]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.09.07-15.23.39:405][908]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.09.07-15.23.39:405][908]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.09.07-15.23.39:405][908]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.09.07-15.23.39:405][908]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.09.07-15.23.39:405][908]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.09.07-15.23.39:452][908]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.09.07-15.23.39:452][908]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.07-15.23.39:459][908]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.07-15.23.39:460][908]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.07-15.23.39:603][908]LogExit: Exiting.
-[2017.09.07-15.23.39:617][908]Log file closed, 09/07/17 17:23:39
+[2017.09.07-15.44.00:674][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-15.44.00:674][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.07-15.44.00:702][  0]LogInit: Computer: ADMIN-PC
+[2017.09.07-15.44.00:702][  0]LogInit: User: Admin
+[2017.09.07-15.44.00:702][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.07-15.44.00:702][  0]LogInit: High frequency timer resolution =3.020517 MHz
+[2017.09.07-15.44.00:702][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.07-15.44.00:702][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.07-15.44.00:702][  0]LogMemory: Process Physical Memory: 279.84 MB used, 279.84 MB peak
+[2017.09.07-15.44.00:702][  0]LogMemory: Process Virtual Memory: 278.43 MB used, 278.43 MB peak
+[2017.09.07-15.44.00:702][  0]LogMemory: Physical Memory: 4108.11 MB used,  4067.19 MB free, 8175.30 MB total
+[2017.09.07-15.44.00:702][  0]LogMemory: Virtual Memory: 654.45 MB used,  4067.19 MB free, 8388608.00 MB total
+[2017.09.07-15.44.01:347][  0]LogInit: Using OS detected language (it-IT).
+[2017.09.07-15.44.01:347][  0]LogInit: Using OS detected locale (it-IT).
+[2017.09.07-15.44.01:559][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2017.09.07-15.44.01:559][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2017.09.07-15.44.06:411][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.07-15.44.06:833][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.09.07-15.44.06:833][  0]LogD3D11RHI:       1969/0/3831 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.07-15.44.06:833][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.07-15.44.06:839][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.07-15.44.06:839][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.07-15.44.06:839][  0]LogWindows: EnumDisplayDevices:
+[2017.09.07-15.44.06:839][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.09.07-15.44.06:840][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.07-15.44.06:840][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.07-15.44.06:840][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.07-15.44.06:841][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.07-15.44.06:841][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.07-15.44.06:841][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.07-15.44.06:841][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.07-15.44.06:841][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.09.07-15.44.06:841][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.09.07-15.44.06:841][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.09.07-15.44.06:841][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.07-15.44.06:996][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.07-15.44.07:013][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.07-15.44.07:015][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Intermediate/Shaders/WorkingDirectory/2764/).
+[2017.09.07-15.44.07:015][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/F18332544570B22E72E8C4929CBD4220/'.
+[2017.09.07-15.44.07:015][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.07-15.44.11:605][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.07-15.44.11:692][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.07-15.44.11:782][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.07-15.44.11:873][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.07-15.44.11:972][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.07-15.44.12:062][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.07-15.44.12:151][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.07-15.44.12:238][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.07-15.44.12:335][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.07-15.44.12:426][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.07-15.44.12:513][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.07-15.44.12:601][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.07-15.44.12:687][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.07-15.44.12:774][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.07-15.44.12:859][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.07-15.44.13:033][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.07-15.44.13:033][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.07-15.44.13:132][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.07-15.44.13:287][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.07-15.44.13:332][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.07-15.44.13:423][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.07-15.44.13:510][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.07-15.44.13:596][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.07-15.44.13:700][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.07-15.44.13:700][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.07-15.44.14:940][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.07-15.44.15:889][  0]LogDerivedDataCache: Loaded boot cache 0.95s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.07-15.44.15:889][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.07-15.44.15:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.07-15.44.15:889][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.07-15.44.15:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.07-15.44.15:889][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.07-15.44.15:925][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.07-15.44.15:937][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.07-15.44.15:952][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.07-15.44.15:953][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.07-15.44.16:048][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-15.44.16:048][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-15.44.19:821][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.09.07-15.44.20:201][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-15.44.20:207][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.07-15.44.21:199][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.07-15.44.21:288][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.07-15.44.21:288][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.07-15.44.21:288][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.07-15.44.21:288][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.07-15.44.21:288][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.07-15.44.22:221][  0]LogNetVersion: ScripterWorkshop , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3244171880)
+[2017.09.07-15.44.22:618][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.023699 seconds
+[2017.09.07-15.44.22:626][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.07-15.44.22:626][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.07-15.44.22:626][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.07-15.44.22:745][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.07-15.44.44:596][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.07-15.44.44:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.07-15.44.46:977][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.07-15.44.47:739][  0]SourceControl: Source control is disabled
+[2017.09.07-15.44.47:739][  0]SourceControl: Source control is disabled
+[2017.09.07-15.44.47:889][  0]SourceControl: Source control is disabled
+[2017.09.07-15.44.48:000][  0]SourceControl: Source control is disabled
+[2017.09.07-15.44.49:317][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.07-15.44.49:809][  0]LogOcInput: OculusInput pre-init called
+[2017.09.07-15.44.50:323][  0]LogEngine: Initializing Engine...
+[2017.09.07-15.44.50:325][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.07-15.44.50:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.07-15.44.50:642][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.07-15.44.50:905][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.07-15.44.50:930][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-15.44.50:946][  0]LogInit: FAudioDevice initialized.
+[2017.09.07-15.44.51:161][  0]LogDerivedDataCache: Saved boot cache 0.21s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.07-15.44.51:186][  0]LogInit: Texture streaming: Enabled
+[2017.09.07-15.44.51:416][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.07-15.44.52:103][  0]LogInit: Transaction tracking system initialized
+[2017.09.07-15.44.52:742][  0]BlueprintLog: New page: Editor Load
+[2017.09.07-15.44.54:571][  0]LocalizationService: Localization service is disabled
+[2017.09.07-15.44.56:382][  0]LogConsoleResponse: Display: 
+[2017.09.07-15.44.57:217][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.07-15.44.57:217][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.07-15.44.57:217][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.07-15.44.58:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' took 0.02s
+[2017.09.07-15.44.59:642][  0]SourceControl: Source control is disabled
+[2017.09.07-15.44.59:642][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.07-15.44.59:643][  0]LightingResults: New page: Lighting Build
+[2017.09.07-15.44.59:720][  0]MapCheck: New page: Map Check
+[2017.09.07-15.44.59:720][  0]LightingResults: New page: Lighting Build
+[2017.09.07-15.45.00:419][  0]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-15.45.00:435][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.07-15.45.00:453][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.07-15.45.00:557][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104.18ms to complete.
+[2017.09.07-15.45.00:557][  0]LogFileHelpers: Loading map 'ScripterWorkshop' took 0.914
+[2017.09.07-15.45.01:310][  0]LogCollectionManager: Loaded 0 collections in 0.002353 seconds
+[2017.09.07-15.45.01:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' took 0.01s
+[2017.09.07-15.45.01:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' took 0.01s
+[2017.09.07-15.45.01:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' took 0.01s
+[2017.09.07-15.45.01:462][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.07-15.45.01:475][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2392 classes and 504 folders.
+[2017.09.07-15.45.01:624][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.09.07-15.45.03:296][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.09.07-15.45.03:305][  0]LogSlate: Took 0.005604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.07-15.45.03:312][  0]LogSlate: Took 0.004797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.07-15.45.03:327][  0]LogSlate: Took 0.007168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.07-15.45.03:343][  0]LogSlate: Took 0.014768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.07-15.45.03:632][  0]LogRenderer: Reallocating scene render targets to support 832x588 Format 10 NumSamples 1 (Frame:1).
+[2017.09.07-15.45.03:982][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.09.07-15.45.03:983][  0]LogLoad: (Engine Initialization) Total time: 69.53 seconds
+[2017.09.07-15.45.03:983][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.07-15.45.03:988][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.07-15.45.03:988][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.07-15.45.04:070][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.07-15.45.04:258][  2]LogAssetRegistry: Asset discovery search completed in 44.4569 seconds
+[2017.09.07-15.45.04:261][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.07-15.45.04:261][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000268 seconds (updated 0 objects)
+[2017.09.07-15.45.05:044][ 68]LogSlate: Took 0.013453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-15.45.08:956][475]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-15.45.09:565][475]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 113 classes and 0 folders.
+[2017.09.07-15.45.10:846][475]LogSlate: Took 0.014508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.07-15.45.18:446][244]LogSlate: Took 0.013081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.07-15.45.27:432][287]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.07-15.45.46:916][ 93]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Source/ScripterWorkshop/MaterialSwitcher.h'
+[2017.09.07-15.45.46:999][ 93]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Source/ScripterWorkshop/MaterialSwitcher.cpp'
+[2017.09.07-15.56.53:262][ 92]LogHttp: Warning: 0000000036324580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.09.07-15.56.53:262][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x7a42ffb8 [can pipeline])
+[2017.09.07-15.56.53:262][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2017.09.07-15.56.53:263][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.202.221.101) port 443 (#1))
+[2017.09.07-15.56.53:263][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 3 (upload completely sent off: 356 out of 356 bytes)
+[2017.09.07-15.56.53:263][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.09.07-15.56.53:264][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.09.07-15.56.53:264][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 6 (Closing connection 1)
+[2017.09.07-15.56.53:264][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF35AB48C-4D3B-3D61-D6AE-C28E083626D8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=e596fd8543d8b022c6c53ab13e8a51b7%7C2bdd1138e9c84a049480766a9822828c%7C2095de21-1a6e-4602-8a10-60df676f333c&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.09.07-15.56.53:265][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.09.07-15.56.53:265][ 92]LogHttp: Warning: 0000000036324580: libcurl info message cache 9 (Closing connection 2)
+[2017.09.07-16.06.13:133][ 10]Candidate modules for hot reload:
+[2017.09.07-16.06.13:133][ 10]  ScripterWorkshop
+[2017.09.07-16.06.13:134][ 10]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 4966 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-16.06.13:136][ 10]Warning: Starting HotReload took  0.1s.
+[2017.09.07-16.08.03:979][482]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 8:08:03 PM
+[2017.09.07-16.08.03:979][482]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-16.08.03:979][482]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-16.08.03:979][482]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-16.08.03:980][482]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 14,6175446 seconds
+[2017.09.07-16.08.03:980][482]CompilerResultsLog: Performing 5 actions (2 in parallel)
+[2017.09.07-16.08.03:980][482]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-16.08.03:981][482]CompilerResultsLog: MaterialSwitcher.gen.cpp
+[2017.09.07-16.08.03:981][482]CompilerResultsLog: Error: c:\users\admin\documents\repositories\scripterworkshop\scripterworkshop\source\scripterworkshop\materialswitcher.cpp(24)  : error C4700: utilizzata variabile locale 'InputComponent' non inizializzata
+[2017.09.07-16.08.03:981][482]CompilerResultsLog: ScripterWorkshop.init.gen.cpp
+[2017.09.07-16.08.03:981][482]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-4966.dll
+[2017.09.07-16.08.03:981][482]CompilerResultsLog: Total build time: 108,81 seconds (Local executor: 0,00 seconds)
+[2017.09.07-16.08.03:982][482]LogMainFrame: MainFrame: Module compiling took 110.860 seconds
+[2017.09.07-16.08.03:982][482]Warning: HotReload failed, recompile failed
+[2017.09.07-16.15.41:430][ 63]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ScripterWorkshop
+[2017.09.07-16.15.41:431][ 63]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.07-16.15.41:431][ 63]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.07-16.15.41:431][ 63]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.07-16.15.41:431][ 63]LogTemp: BranchPath = ADMIN-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = ADMIN-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.07-16.15.41:680][ 68]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Admin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.07-16.20.09:818][100]Candidate modules for hot reload:
+[2017.09.07-16.20.09:818][100]  ScripterWorkshop
+[2017.09.07-16.20.09:818][100]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 4721 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-16.20.09:821][100]Warning: Starting HotReload took  0.0s.
+[2017.09.07-16.20.41:586][485]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 8:20:41 PM
+[2017.09.07-16.20.41:586][485]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-16.20.41:586][485]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-16.20.41:586][485]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-16.20.41:587][485]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 14,6370565 seconds
+[2017.09.07-16.20.41:587][485]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.07-16.20.41:587][485]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-16.20.41:587][485]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(23) : error C3867: 'AActor::FindComponentByClass': sintassi non standard; usare '&' per creare un puntatore al membro
+[2017.09.07-16.20.41:588][485]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-4721.dll
+[2017.09.07-16.20.41:588][485]CompilerResultsLog: Total build time: 29,95 seconds (Local executor: 0,00 seconds)
+[2017.09.07-16.20.41:589][485]LogMainFrame: MainFrame: Module compiling took 31.777 seconds
+[2017.09.07-16.20.41:589][485]Warning: HotReload failed, recompile failed
+[2017.09.07-16.22.10:477][662]Candidate modules for hot reload:
+[2017.09.07-16.22.10:477][662]  ScripterWorkshop
+[2017.09.07-16.22.10:478][662]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 9035 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-16.22.10:480][662]Warning: Starting HotReload took  0.0s.
+[2017.09.07-16.22.38:971][807]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 8:22:38 PM
+[2017.09.07-16.22.38:972][807]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-16.22.38:972][807]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-16.22.38:972][807]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-16.22.38:973][807]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 13,3605227 seconds
+[2017.09.07-16.22.38:974][807]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.07-16.22.38:974][807]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-16.22.38:974][807]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(23) : error C2276: '&': operazione non valida in espressione di funzione membro associata
+[2017.09.07-16.22.38:975][807]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-9035.dll
+[2017.09.07-16.22.38:975][807]CompilerResultsLog: Total build time: 27,06 seconds (Local executor: 0,00 seconds)
+[2017.09.07-16.22.38:975][807]LogMainFrame: MainFrame: Module compiling took 28.504 seconds
+[2017.09.07-16.22.38:976][807]Warning: HotReload failed, recompile failed
+[2017.09.07-16.40.39:569][130]Candidate modules for hot reload:
+[2017.09.07-16.40.39:570][130]  ScripterWorkshop
+[2017.09.07-16.40.39:570][130]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 9756 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-16.40.39:590][130]Warning: Starting HotReload took  0.1s.
+[2017.09.07-16.43.34:748][780]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 8:43:34 PM
+[2017.09.07-16.43.34:749][780]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-16.43.34:749][780]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-16.43.34:750][780]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-16.43.34:751][780]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 16,0857161 seconds
+[2017.09.07-16.43.34:751][780]CompilerResultsLog: Performing 4 actions (2 in parallel)
+[2017.09.07-16.43.34:751][780]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-16.43.34:751][780]CompilerResultsLog: MaterialSwitcher.gen.cpp
+[2017.09.07-16.43.34:751][780]CompilerResultsLog: [3/4] Link UE4Editor-ScripterWorkshop-9756.dll
+[2017.09.07-16.43.34:751][780]CompilerResultsLog: [4/4] Link UE4Editor-ScripterWorkshop-9756.lib
+[2017.09.07-16.43.34:751][780]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9756.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9756.exp
+[2017.09.07-16.43.34:752][780]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9756.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9756.suppressed.exp
+[2017.09.07-16.43.34:752][780]CompilerResultsLog: Total build time: 156,44 seconds (Local executor: 79,13 seconds)
+[2017.09.07-16.43.34:753][780]LogMainFrame: MainFrame: Module compiling took 175.187 seconds
+[2017.09.07-16.43.36:090][780]LogClass: Could not find existing class MaterialSwitcher in package /Script/ScripterWorkshop for HotReload, assuming new class
+[2017.09.07-16.43.36:111][780]LogHotReload: Re-instancing MaterialSwitcher after hot-reload.
+[2017.09.07-16.43.36:521][780]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0032 seconds. Added 5 classes and 2 folders.
+[2017.09.07-16.43.36:526][780]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.07-16.43.37:197][780]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2393 classes and 506 folders.
+[2017.09.07-16.43.37:246][780]Display: HotReload took 177.8s.
+[2017.09.07-16.43.56:755][425]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.07-16.43.57:052][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-16.43.57:105][425]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 8:43:57 PM)
+[2017.09.07-16.43.57:126][425]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.07-16.43.57:172][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045879s)
+[2017.09.07-16.43.57:174][425]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-16.43.57:174][425]LogPlayLevel: PIE: World Init took: (0.001646s)
+[2017.09.07-16.43.57:190][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.063953s)
+[2017.09.07-16.43.57:302][425]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-16.43.57:348][425]LogInit: FAudioDevice initialized.
+[2017.09.07-16.43.57:530][425]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.07-16.43.57:669][425]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-18.43.57
+[2017.09.07-16.43.57:677][425]LogWorld: Bringing up level for play took: 0.009899
+[2017.09.07-16.43.58:031][425]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0026 seconds. Added 11 classes and 0 folders.
+[2017.09.07-16.43.58:219][425]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 2.134
+[2017.09.07-16.45.33:099][ 93]Candidate modules for hot reload:
+[2017.09.07-16.45.33:099][ 93]  ScripterWorkshop
+[2017.09.07-16.45.33:100][ 93]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 7339 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.07-16.45.33:102][ 93]Warning: Starting HotReload took  0.0s.
+[2017.09.07-16.46.03:565][259]CompilerResultsLog: New page: Compilation - Sep 7, 2017, 8:46:03 PM
+[2017.09.07-16.46.03:566][259]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.07-16.46.03:566][259]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.07-16.46.03:567][259]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.07-16.46.03:568][259]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 14,1802353 seconds
+[2017.09.07-16.46.03:569][259]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.07-16.46.03:569][259]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.07-16.46.03:569][259]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-7339.dll
+[2017.09.07-16.46.03:569][259]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-7339.lib
+[2017.09.07-16.46.03:570][259]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7339.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7339.exp
+[2017.09.07-16.46.03:571][259]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7339.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7339.suppressed.exp
+[2017.09.07-16.46.03:572][259]CompilerResultsLog: Total build time: 29,09 seconds (Local executor: 4,70 seconds)
+[2017.09.07-16.46.03:572][259]LogMainFrame: MainFrame: Module compiling took 30.478 seconds
+[2017.09.07-16.46.03:767][259]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0049 seconds. Added 5 classes and 2 folders.
+[2017.09.07-16.46.03:773][259]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.07-16.46.04:480][259]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 2393 classes and 506 folders.
+[2017.09.07-16.46.04:487][259]Display: HotReload took 31.4s.
+[2017.09.07-16.46.09:670][377]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.07-16.46.09:694][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-16.46.09:694][377]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 8:46:09 PM)
+[2017.09.07-16.46.09:694][377]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.07-16.46.09:698][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003505s)
+[2017.09.07-16.46.09:700][377]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-16.46.09:700][377]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2017.09.07-16.46.09:701][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006277s)
+[2017.09.07-16.46.09:811][377]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-16.46.09:824][377]LogInit: FAudioDevice initialized.
+[2017.09.07-16.46.09:857][377]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.07-16.46.09:859][377]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-18.46.09
+[2017.09.07-16.46.09:860][377]LogWorld: Bringing up level for play took: 0.001812
+[2017.09.07-16.46.09:863][377]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.224
+[2017.09.07-16.46.12:546][638]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.46.17:054][ 76]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.46.17:304][102]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.46.56:396][684]LogRenderer: Reallocating scene render targets to support 832x844 Format 10 NumSamples 1 (Frame:1).
+[2017.09.07-16.53.11:264][ 66]BlueprintLog: New page: Compile FirstPersonCharacter_BP
+[2017.09.07-16.53.13:620][284]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.07-16.53.13:645][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-16.53.13:646][284]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 8:53:13 PM)
+[2017.09.07-16.53.13:646][284]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.07-16.53.13:649][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002670s)
+[2017.09.07-16.53.13:650][284]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-16.53.13:651][284]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2017.09.07-16.53.13:651][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005006s)
+[2017.09.07-16.53.13:697][284]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-16.53.13:714][284]LogInit: FAudioDevice initialized.
+[2017.09.07-16.53.13:746][284]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.07-16.53.13:748][284]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-18.53.13
+[2017.09.07-16.53.13:749][284]LogWorld: Bringing up level for play took: 0.002417
+[2017.09.07-16.53.13:753][284]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.339
+[2017.09.07-16.53.25:786][627]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.55.35:203][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.07-16.55.38:287][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.07-16.55.42:168][123]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.07-16.55.42:192][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-16.55.42:192][123]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 8:55:42 PM)
+[2017.09.07-16.55.42:193][123]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.07-16.55.42:199][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005859s)
+[2017.09.07-16.55.42:201][123]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-16.55.42:202][123]LogPlayLevel: PIE: World Init took: (0.002632s)
+[2017.09.07-16.55.42:202][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.009572s)
+[2017.09.07-16.55.42:247][123]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-16.55.42:261][123]LogInit: FAudioDevice initialized.
+[2017.09.07-16.55.42:291][123]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.07-16.55.42:293][123]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-18.55.42
+[2017.09.07-16.55.42:294][123]LogWorld: Bringing up level for play took: 0.002123
+[2017.09.07-16.55.42:298][123]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.205
+[2017.09.07-16.55.46:755][576]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.55.50:101][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2017.09.07-16.55.54:026][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.07-16.55.57:372][464]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.07-16.55.57:396][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.07-16.55.57:396][464]PIE: New page: PIE session: ScripterWorkshop (Sep 7, 2017, 8:55:57 PM)
+[2017.09.07-16.55.57:397][464]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.07-16.55.57:400][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003535s)
+[2017.09.07-16.55.57:402][464]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.07-16.55.57:402][464]LogPlayLevel: PIE: World Init took: (0.001468s)
+[2017.09.07-16.55.57:403][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006002s)
+[2017.09.07-16.55.57:459][464]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-16.55.57:478][464]LogInit: FAudioDevice initialized.
+[2017.09.07-16.55.57:510][464]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.07-16.55.57:513][464]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.07-18.55.57
+[2017.09.07-16.55.57:513][464]LogWorld: Bringing up level for play took: 0.001701
+[2017.09.07-16.55.57:517][464]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.577
+[2017.09.07-16.55.58:973][608]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.07-16.56.00:821][801]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.56.01:832][909]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.07-16.56.03:392][ 73]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.56.04:479][185]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.07-16.56.06:223][372]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.07-16.56.16:258][271]LogSavePackage: Save=113.74ms
+[2017.09.07-16.56.16:258][271]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/ScripterWorkshop98D0015B4E49CDA1692487AA337FEF14.tmp' to '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap'
+[2017.09.07-16.56.16:315][271]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap
+[2017.09.07-16.56.16:412][271]LogFileHelpers: Saving map 'ScripterWorkshop' took 0.489
+[2017.09.07-16.56.16:591][271]LogSavePackage: Save=94.88ms
+[2017.09.07-16.56.16:591][271]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/FirstPersonCharacter_BP2C167A8242619AC69DDE3A99A46392D7.tmp' to '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Blueprint/FirstPersonCharacter_BP.uasset'
+[2017.09.07-16.56.16:596][271]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Blueprint/FirstPersonCharacter_BP.uasset
+[2017.09.07-16.56.22:670][390]Cmd: QUIT_EDITOR
+[2017.09.07-16.56.24:695][390]LogExit: Preparing to exit.
+[2017.09.07-16.56.25:300][390]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' was aborted.
+[2017.09.07-16.56.25:390][390]LogExit: Editor shut down
+[2017.09.07-16.56.25:396][390]LogExit: Transaction tracking system shut down
+[2017.09.07-16.56.25:638][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.07-16.56.25:638][390]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' was aborted.
+[2017.09.07-16.56.25:638][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.07-16.56.25:638][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.07-16.56.25:638][390]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.07-16.56.28:126][390]LogExit: Object subsystem successfully closed.
+[2017.09.07-16.56.28:277][390]LogD3D11RHI: Shutdown
+[2017.09.07-16.56.28:284][390]LogD3D11RHI: CleanupD3DDevice
+[2017.09.07-16.56.28:516][390]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.07-16.56.29:489][390]LogModuleManager: Shutting down and abandoning module ScripterWorkshop (542)
+[2017.09.07-16.56.29:489][390]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (541)
+[2017.09.07-16.56.29:489][390]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
+[2017.09.07-16.56.29:489][390]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.09.07-16.56.29:489][390]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.09.07-16.56.29:539][390]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.07-16.56.29:539][390]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2017.09.07-16.56.29:542][390]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.07-16.56.29:568][390]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2017.09.07-16.56.29:568][390]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2017.09.07-16.56.29:568][390]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.09.07-16.56.29:576][390]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' was aborted.
+[2017.09.07-16.56.29:576][390]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' was aborted.
+[2017.09.07-16.56.29:576][390]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' was aborted.
+[2017.09.07-16.56.29:576][390]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.07-16.56.29:586][390]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.09.07-16.56.29:587][390]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.09.07-16.56.29:587][390]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.09.07-16.56.29:592][390]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.09.07-16.56.29:592][390]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.09.07-16.56.29:592][390]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.09.07-16.56.29:592][390]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.09.07-16.56.29:592][390]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.09.07-16.56.29:592][390]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.09.07-16.56.29:598][390]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.09.07-16.56.29:598][390]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.09.07-16.56.29:598][390]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.09.07-16.56.29:602][390]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.09.07-16.56.29:604][390]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.09.07-16.56.29:612][390]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.09.07-16.56.29:628][390]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.09.07-16.56.29:645][390]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.09.07-16.56.29:645][390]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.09.07-16.56.29:645][390]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.09.07-16.56.29:645][390]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.09.07-16.56.29:645][390]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.09.07-16.56.29:660][390]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.09.07-16.56.29:670][390]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.09.07-16.56.29:679][390]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.09.07-16.56.29:689][390]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.09.07-16.56.29:689][390]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.09.07-16.56.29:689][390]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.09.07-16.56.29:689][390]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.09.07-16.56.29:988][390]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.09.07-16.56.29:988][390]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.09.07-16.56.29:988][390]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.09.07-16.56.29:988][390]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.09.07-16.56.30:006][390]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.09.07-16.56.30:014][390]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.09.07-16.56.30:014][390]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.09.07-16.56.30:028][390]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.09.07-16.56.30:028][390]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.09.07-16.56.30:039][390]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.09.07-16.56.30:052][390]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.09.07-16.56.30:052][390]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.09.07-16.56.30:060][390]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.09.07-16.56.30:060][390]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.09.07-16.56.30:081][390]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.09.07-16.56.30:081][390]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.09.07-16.56.30:081][390]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.09.07-16.56.30:082][390]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.09.07-16.56.30:082][390]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.09.07-16.56.30:087][390]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.09.07-16.56.30:099][390]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.09.07-16.56.30:109][390]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.09.07-16.56.30:115][390]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.09.07-16.56.30:119][390]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.09.07-16.56.30:177][390]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.09.07-16.56.30:197][390]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.09.07-16.56.30:214][390]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.09.07-16.56.30:220][390]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.09.07-16.56.30:220][390]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.09.07-16.56.30:227][390]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.09.07-16.56.30:227][390]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.09.07-16.56.30:244][390]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.09.07-16.56.30:244][390]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.09.07-16.56.30:252][390]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.09.07-16.56.30:274][390]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.09.07-16.56.30:274][390]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.09.07-16.56.30:275][390]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.09.07-16.56.30:285][390]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.09.07-16.56.30:303][390]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.09.07-16.56.30:304][390]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.09.07-16.56.30:316][390]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.09.07-16.56.30:316][390]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.09.07-16.56.30:316][390]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.09.07-16.56.30:316][390]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.09.07-16.56.30:316][390]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.09.07-16.56.30:345][390]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.09.07-16.56.30:346][390]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.09.07-16.56.30:356][390]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.09.07-16.56.30:361][390]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.09.07-16.56.30:365][390]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.09.07-16.56.30:365][390]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.07-16.56.30:365][390]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.07-16.56.30:365][390]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.07-16.56.30:374][390]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.07-16.56.30:375][390]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.07-16.56.30:375][390]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.07-16.56.30:378][390]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.07-16.56.30:378][390]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.07-16.56.30:378][390]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.07-16.56.30:390][390]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.09.07-16.56.30:390][390]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.09.07-16.56.30:394][390]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.09.07-16.56.30:394][390]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.09.07-16.56.30:394][390]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.09.07-16.56.30:394][390]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.09.07-16.56.30:394][390]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.09.07-16.56.30:427][390]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.09.07-16.56.30:431][390]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.09.07-16.56.30:432][390]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.09.07-16.56.30:435][390]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.09.07-16.56.30:435][390]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.09.07-16.56.30:438][390]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.09.07-16.56.30:444][390]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.09.07-16.56.30:455][390]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.09.07-16.56.30:463][390]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.09.07-16.56.30:463][390]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.09.07-16.56.30:463][390]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.09.07-16.56.30:463][390]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.09.07-16.56.30:475][390]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.09.07-16.56.30:479][390]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.09.07-16.56.30:484][390]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.09.07-16.56.30:496][390]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.09.07-16.56.30:497][390]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Binaries/Win64' was aborted.
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.07-16.56.30:497][390]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.07-16.56.30:501][390]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.07-16.56.30:601][390]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.07-16.56.30:710][390]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.07-16.56.30:721][390]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.07-16.56.30:721][390]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.07-16.56.30:721][390]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.07-16.56.30:725][390]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.07-16.56.30:725][390]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.07-16.56.30:726][390]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.07-16.56.30:726][390]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.07-16.56.30:733][390]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.07-16.56.30:740][390]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.07-16.56.30:757][390]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.07-16.56.30:757][390]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.07-16.56.30:757][390]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.07-16.56.30:777][390]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.07-16.56.30:777][390]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.07-16.56.30:777][390]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.07-16.56.30:777][390]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.07-16.56.30:794][390]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.07-16.56.30:798][390]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.07-16.56.30:798][390]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.07-16.56.30:818][390]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.07-16.56.30:818][390]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.07-16.56.30:824][390]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.07-16.56.30:824][390]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.07-16.56.30:837][390]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.07-16.56.30:861][390]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.07-16.56.30:869][390]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.07-16.56.30:869][390]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.07-16.56.30:894][390]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.07-16.56.30:895][390]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.07-16.56.30:898][390]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.07-16.56.30:899][390]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.09.07-16.56.30:914][390]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.09.07-16.56.30:918][390]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.09.07-16.56.30:918][390]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.09.07-16.56.30:924][390]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.09.07-16.56.30:925][390]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.09.07-16.56.30:932][390]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.09.07-16.56.30:941][390]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.09.07-16.56.30:942][390]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.07-16.56.30:942][390]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.07-16.56.31:005][390]LogDerivedDataCache: Shutdown
+[2017.09.07-16.56.31:013][390]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.07-16.56.31:013][390]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.07-16.56.31:025][390]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.07-16.56.31:039][390]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.07-16.56.31:049][390]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.07-16.56.31:058][390]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.07-16.56.31:083][390]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.07-16.56.31:083][390]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.07-16.56.31:083][390]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.07-16.56.31:095][390]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.07-16.56.31:106][390]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.07-16.56.31:107][390]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.07-16.56.31:116][390]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.07-16.56.31:116][390]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.07-16.56.31:116][390]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.07-16.56.31:116][390]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.07-16.56.31:142][390]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.07-16.56.31:163][390]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.07-16.56.31:163][390]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.07-16.56.31:172][390]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF35AB48C-4D3B-3D61-D6AE-C28E083626D8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=e596fd8543d8b022c6c53ab13e8a51b7%7C2bdd1138e9c84a049480766a9822828c%7C2095de21-1a6e-4602-8a10-60df676f333c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.07-16.56.31:178][390]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.07-16.56.31:187][390]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.07-16.56.31:192][390]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.07-16.56.31:192][390]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.07-16.56.31:203][390]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.07-16.56.31:212][390]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.07-16.56.31:212][390]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.07-16.56.31:212][390]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.07-16.56.31:224][390]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.07-16.56.31:234][390]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.07-16.56.31:234][390]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.07-16.56.31:239][390]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.07-16.56.31:239][390]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.07-16.56.31:239][390]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.07-16.56.31:239][390]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.07-16.56.31:246][390]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.07-16.56.31:246][390]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.07-16.56.31:256][390]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.07-16.56.31:256][390]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.07-16.56.31:272][390]LogExit: Exiting.
+[2017.09.07-16.56.31:285][390]Log file closed, 09/07/17 18:56:31
