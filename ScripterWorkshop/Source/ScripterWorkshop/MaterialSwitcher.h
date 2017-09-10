@@ -23,6 +23,8 @@ public:
 		float RayLength = 150.0f;
 	UPROPERTY(EditAnywhere)
 		bool ShowDebugLine = true;
+	UPROPERTY(EditAnywhere)
+		bool DebugLineAlwaysOn = false;
 
 protected:
 	// Called when the game starts

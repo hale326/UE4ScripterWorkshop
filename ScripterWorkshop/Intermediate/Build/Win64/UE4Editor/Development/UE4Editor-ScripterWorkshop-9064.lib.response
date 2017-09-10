@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ScripterWorkshop-9064.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\MaterialSwitcher.cpp.obj"
+"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\ScripterWorkshop.cpp.obj"
+"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\ScripterWorkshopCharacter.cpp.obj"
+"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\ScripterWorkshopGameMode.cpp.obj"
+"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\ScripterWorkshopHUD.cpp.obj"
+"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\ScripterWorkshopProjectile.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ScripterWorkshop\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9064.lib"

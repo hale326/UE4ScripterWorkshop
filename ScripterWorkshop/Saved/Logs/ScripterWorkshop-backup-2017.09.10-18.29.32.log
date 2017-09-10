@@ -1,0 +1,1151 @@
+﻿Log file open, 09/08/17 11:20:38
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: ScripterWorkshop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1527677471) SRandInit(1527677471).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.129635
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.08-09.20.40:607][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.08-09.20.40:607][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.08-09.20.40:620][  0]LogInit: Computer: ADMIN-PC
+[2017.09.08-09.20.40:620][  0]LogInit: User: Admin
+[2017.09.08-09.20.40:620][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.08-09.20.40:620][  0]LogInit: High frequency timer resolution =3.020517 MHz
+[2017.09.08-09.20.40:620][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.08-09.20.40:620][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.08-09.20.40:620][  0]LogMemory: Process Physical Memory: 278.19 MB used, 278.19 MB peak
+[2017.09.08-09.20.40:621][  0]LogMemory: Process Virtual Memory: 278.45 MB used, 278.45 MB peak
+[2017.09.08-09.20.40:621][  0]LogMemory: Physical Memory: 4323.66 MB used,  3851.64 MB free, 8175.30 MB total
+[2017.09.08-09.20.40:621][  0]LogMemory: Virtual Memory: 654.45 MB used,  3851.64 MB free, 8388608.00 MB total
+[2017.09.08-09.20.40:954][  0]LogInit: Using OS detected language (it-IT).
+[2017.09.08-09.20.40:954][  0]LogInit: Using OS detected locale (it-IT).
+[2017.09.08-09.20.40:958][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2017.09.08-09.20.40:958][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2017.09.08-09.20.41:903][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.08-09.20.42:156][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.09.08-09.20.42:156][  0]LogD3D11RHI:       1969/0/3831 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.08-09.20.42:156][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.08-09.20.42:163][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.08-09.20.42:163][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.08-09.20.42:163][  0]LogWindows: EnumDisplayDevices:
+[2017.09.08-09.20.42:164][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.09.08-09.20.42:165][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.08-09.20.42:165][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.08-09.20.42:166][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.09.08-09.20.42:166][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.08-09.20.42:166][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.08-09.20.42:167][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.08-09.20.42:167][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.08-09.20.42:167][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.09.08-09.20.42:167][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.09.08-09.20.42:167][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.09.08-09.20.42:167][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.08-09.20.42:356][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.08-09.20.42:377][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.08-09.20.42:379][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Intermediate/Shaders/WorkingDirectory/6516/).
+[2017.09.08-09.20.42:379][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/9C9BA0E846A83BBF00DD26AA71AC4E6D/'.
+[2017.09.08-09.20.42:379][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.08-09.20.44:618][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.08-09.20.44:738][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.08-09.20.44:858][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.08-09.20.44:964][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.08-09.20.45:078][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.08-09.20.45:170][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.08-09.20.45:274][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.08-09.20.45:385][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.08-09.20.45:501][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.08-09.20.45:610][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.08-09.20.45:720][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.08-09.20.45:832][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.08-09.20.45:952][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.08-09.20.46:062][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.08-09.20.46:156][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.08-09.20.46:357][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.08-09.20.46:357][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.08-09.20.46:437][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.08-09.20.46:596][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.08-09.20.46:656][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.08-09.20.46:757][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.08-09.20.46:850][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.08-09.20.46:952][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.08-09.20.47:060][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.08-09.20.47:061][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.08-09.20.48:002][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.08-09.20.48:171][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.08-09.20.48:171][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.08-09.20.48:171][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.08-09.20.48:171][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.08-09.20.48:171][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.08-09.20.48:171][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.08-09.20.48:199][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.08-09.20.48:211][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.08-09.20.48:227][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.08-09.20.48:227][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.08-09.20.48:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.08-09.20.48:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.08-09.20.48:634][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.09.08-09.20.48:926][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.08-09.20.48:936][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.08-09.20.49:595][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.08-09.20.49:669][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.08-09.20.49:669][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.08-09.20.49:669][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.08-09.20.49:669][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.08-09.20.49:670][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.08-09.20.50:193][  0]LogNetVersion: ScripterWorkshop , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3244171880)
+[2017.09.08-09.20.50:500][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.024192 seconds
+[2017.09.08-09.20.50:509][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.08-09.20.50:509][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.08-09.20.50:509][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.08-09.20.50:608][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.08-09.20.54:804][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.08-09.20.54:863][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.08-09.20.56:332][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.08-09.20.57:047][  0]SourceControl: Source control is disabled
+[2017.09.08-09.20.57:047][  0]SourceControl: Source control is disabled
+[2017.09.08-09.20.57:135][  0]SourceControl: Source control is disabled
+[2017.09.08-09.20.57:232][  0]SourceControl: Source control is disabled
+[2017.09.08-09.20.58:312][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.08-09.20.58:777][  0]LogOcInput: OculusInput pre-init called
+[2017.09.08-09.20.59:226][  0]LogEngine: Initializing Engine...
+[2017.09.08-09.20.59:228][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.08-09.20.59:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.08-09.20.59:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.08-09.20.59:783][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.08-09.20.59:824][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.20.59:876][  0]LogInit: FAudioDevice initialized.
+[2017.09.08-09.21.00:060][  0]LogDerivedDataCache: Saved boot cache 0.18s 93MB C:/Users/Admin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.08-09.21.00:085][  0]LogInit: Texture streaming: Enabled
+[2017.09.08-09.21.00:272][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.08-09.21.00:671][  0]LogInit: Transaction tracking system initialized
+[2017.09.08-09.21.01:389][  0]BlueprintLog: New page: Editor Load
+[2017.09.08-09.21.03:270][  0]LocalizationService: Localization service is disabled
+[2017.09.08-09.21.04:894][  0]LogConsoleResponse: Display: 
+[2017.09.08-09.21.05:220][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.08-09.21.05:220][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.08-09.21.05:220][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.08-09.21.05:562][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' took 0.02s
+[2017.09.08-09.21.07:208][  0]SourceControl: Source control is disabled
+[2017.09.08-09.21.07:209][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.08-09.21.07:209][  0]LightingResults: New page: Lighting Build
+[2017.09.08-09.21.07:286][  0]MapCheck: New page: Map Check
+[2017.09.08-09.21.07:286][  0]LightingResults: New page: Lighting Build
+[2017.09.08-09.21.07:606][  0]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.21.07:613][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.08-09.21.07:635][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.08-09.21.07:744][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.362ms to complete.
+[2017.09.08-09.21.07:744][  0]LogFileHelpers: Loading map 'ScripterWorkshop' took 0.535
+[2017.09.08-09.21.08:061][  0]LogCollectionManager: Loaded 0 collections in 0.002806 seconds
+[2017.09.08-09.21.08:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' took 0.01s
+[2017.09.08-09.21.08:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' took 0.00s
+[2017.09.08-09.21.08:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' took 0.01s
+[2017.09.08-09.21.08:166][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.08-09.21.08:179][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2392 classes and 504 folders.
+[2017.09.08-09.21.08:296][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.09.08-09.21.08:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2017.09.08-09.21.08:371][  0]LogSlate: Took 0.000634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.08-09.21.08:376][  0]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.08-09.21.08:383][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.08-09.21.08:384][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.08-09.21.08:578][  0]LogRenderer: Reallocating scene render targets to support 832x588 Format 10 NumSamples 1 (Frame:1).
+[2017.09.08-09.21.08:830][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.09.08-09.21.08:830][  0]LogLoad: (Engine Initialization) Total time: 32.08 seconds
+[2017.09.08-09.21.08:830][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.08-09.21.08:831][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.08-09.21.08:831][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.08-09.21.09:188][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.08-09.21.09:514][  1]LogAssetRegistry: Asset discovery search completed in 20.8993 seconds
+[2017.09.08-09.21.09:516][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.08-09.21.09:517][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000305 seconds (updated 0 objects)
+[2017.09.08-09.21.56:010][309]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.09.08-09.21.56:015][309]Candidate modules for hot reload:
+[2017.09.08-09.21.56:015][309]  ScripterWorkshop
+[2017.09.08-09.21.56:016][309]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 7537 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.21.56:018][309]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.22.08:613][413]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:22:08 PM
+[2017.09.08-09.22.08:614][413]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.22.08:614][413]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.22.08:614][413]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.22.08:614][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(46) : error C2601: 'UMaterialSwitcher::SetupInputComponent': definizioni di funzioni locali non valide
+[2017.09.08-09.22.08:614][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.22.08:615][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(60) : error C2601: 'UMaterialSwitcher::SwitchMaterial': definizioni di funzioni locali non valide
+[2017.09.08-09.22.08:615][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.22.08:616][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(67) : error C2601: 'UMaterialSwitcher::GetFirstPhysicalBodyInReach': definizioni di funzioni locali non valide
+[2017.09.08-09.22.08:616][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.22.08:616][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(110) : error C2601: 'UMaterialSwitcher::GetRayStartPosition': definizioni di funzioni locali non valide
+[2017.09.08-09.22.08:617][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.22.08:617][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(123) : error C2601: 'UMaterialSwitcher::GetRayEndPosition': definizioni di funzioni locali non valide
+[2017.09.08-09.22.08:617][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.22.08:618][413]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : fatal error C1075: alla fine del file l'elemento parentesi graffa '{' di sinistra ? senza corrispondenza
+[2017.09.08-09.22.08:618][413]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-7537.dll
+[2017.09.08-09.22.08:618][413]CompilerResultsLog: Total build time: 11,98 seconds (Local executor: 0,00 seconds)
+[2017.09.08-09.22.08:618][413]LogMainFrame: MainFrame: Module compiling took 12.607 seconds
+[2017.09.08-09.22.08:619][413]Warning: HotReload failed, recompile failed
+[2017.09.08-09.22.18:961][192]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.08-09.22.20:133][330]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.08-09.22.29:611][722]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Source/ScripterWorkshop/MaterialSwitcher.h'
+[2017.09.08-09.22.29:875][722]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Source/ScripterWorkshop/MaterialSwitcher.cpp'
+[2017.09.08-09.23.23:349][204]Candidate modules for hot reload:
+[2017.09.08-09.23.23:349][204]  ScripterWorkshop
+[2017.09.08-09.23.23:349][204]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 5868 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.23.23:351][204]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.23.36:936][470]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:23:36 PM
+[2017.09.08-09.23.36:936][470]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.23.36:936][470]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.23.36:936][470]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.23.36:937][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(46) : error C2601: 'UMaterialSwitcher::SetupInputComponent': definizioni di funzioni locali non valide
+[2017.09.08-09.23.36:937][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.23.36:937][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(60) : error C2601: 'UMaterialSwitcher::SwitchMaterial': definizioni di funzioni locali non valide
+[2017.09.08-09.23.36:938][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.23.36:938][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(67) : error C2601: 'UMaterialSwitcher::GetFirstPhysicalBodyInReach': definizioni di funzioni locali non valide
+[2017.09.08-09.23.36:938][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.23.36:939][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(110) : error C2601: 'UMaterialSwitcher::GetRayStartPosition': definizioni di funzioni locali non valide
+[2017.09.08-09.23.36:939][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.23.36:939][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(123) : error C2601: 'UMaterialSwitcher::GetRayEndPosition': definizioni di funzioni locali non valide
+[2017.09.08-09.23.36:940][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : note: la riga contiene una '{' senza una parentesi graffa corrispondente
+[2017.09.08-09.23.36:940][470]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29) : fatal error C1075: alla fine del file l'elemento parentesi graffa '{' di sinistra ? senza corrispondenza
+[2017.09.08-09.23.36:940][470]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-5868.dll
+[2017.09.08-09.23.36:941][470]CompilerResultsLog: Total build time: 12,80 seconds (Local executor: 0,00 seconds)
+[2017.09.08-09.23.36:941][470]LogMainFrame: MainFrame: Module compiling took 13.596 seconds
+[2017.09.08-09.23.36:941][470]Warning: HotReload failed, recompile failed
+[2017.09.08-09.27.00:784][557]Candidate modules for hot reload:
+[2017.09.08-09.27.00:784][557]  ScripterWorkshop
+[2017.09.08-09.27.00:785][557]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 2917 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.27.00:788][557]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.27.30:773][790]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:27:30 PM
+[2017.09.08-09.27.30:773][790]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.27.30:773][790]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.27.30:773][790]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.27.30:774][790]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 13,0166931 seconds
+[2017.09.08-09.27.30:774][790]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.27.30:774][790]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.27.30:774][790]CompilerResultsLog: Error: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(117) : fatal error C1075: alla fine del file l'elemento parentesi graffa '{' di sinistra ? senza corrispondenza
+[2017.09.08-09.27.30:775][790]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-2917.dll
+[2017.09.08-09.27.30:775][790]CompilerResultsLog: Total build time: 28,01 seconds (Local executor: 0,00 seconds)
+[2017.09.08-09.27.30:775][790]LogMainFrame: MainFrame: Module compiling took 29.997 seconds
+[2017.09.08-09.27.30:775][790]Warning: HotReload failed, recompile failed
+[2017.09.08-09.29.57:341][231]Candidate modules for hot reload:
+[2017.09.08-09.29.57:341][231]  ScripterWorkshop
+[2017.09.08-09.29.57:342][231]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 3803 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.29.57:344][231]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.30.54:733][ 24]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:30:54 PM
+[2017.09.08-09.30.54:736][ 24]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.30.54:736][ 24]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.30.54:736][ 24]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.30.54:737][ 24]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 23,0932694 seconds
+[2017.09.08-09.30.54:738][ 24]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.30.54:738][ 24]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.30.54:738][ 24]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-3803.dll
+[2017.09.08-09.30.54:738][ 24]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-3803.lib
+[2017.09.08-09.30.54:738][ 24]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3803.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3803.suppressed.exp
+[2017.09.08-09.30.54:739][ 24]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3803.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3803.exp
+[2017.09.08-09.30.54:740][ 24]CompilerResultsLog: Total build time: 55,80 seconds (Local executor: 16,64 seconds)
+[2017.09.08-09.30.54:741][ 24]LogMainFrame: MainFrame: Module compiling took 57.405 seconds
+[2017.09.08-09.30.54:887][ 24]LogClass: Could not find existing class MaterialSwitcher in package /Script/ScripterWorkshop for HotReload, assuming new class
+[2017.09.08-09.30.54:894][ 24]LogHotReload: Re-instancing MaterialSwitcher after hot-reload.
+[2017.09.08-09.30.54:986][ 24]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0025 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.30.54:988][ 24]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.30.55:058][ 24]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.30.55:061][ 24]Display: HotReload took 57.7s.
+[2017.09.08-09.32.04:982][161]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.08-09.32.06:041][161]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 113 classes and 0 folders.
+[2017.09.08-09.32.08:118][161]LogSlate: Took 0.007333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.08-09.32.11:492][392]LogSlate: Took 0.016772 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.08-09.32.18:834][134]BlueprintLog: New page: Compile FirstPersonCharacter_BP
+[2017.09.08-09.32.20:760][292]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.32.20:825][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.32.20:825][292]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:32:20 PM)
+[2017.09.08-09.32.20:826][292]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.32.20:829][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003156s)
+[2017.09.08-09.32.20:830][292]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.32.20:831][292]LogPlayLevel: PIE: World Init took: (0.001641s)
+[2017.09.08-09.32.20:831][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005726s)
+[2017.09.08-09.32.20:869][292]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.32.20:888][292]LogInit: FAudioDevice initialized.
+[2017.09.08-09.32.20:949][292]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.32.20:952][292]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.32.20
+[2017.09.08-09.32.20:953][292]LogWorld: Bringing up level for play took: 0.002288
+[2017.09.08-09.32.21:052][292]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0031 seconds. Added 11 classes and 0 folders.
+[2017.09.08-09.32.21:056][292]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.663
+[2017.09.08-09.32.44:695][634]BlueprintLog: New page: Compile FirstPersonCharacter_BP
+[2017.09.08-09.32.47:939][917]LogSavePackage: Save=184.89ms
+[2017.09.08-09.32.47:940][917]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/FirstPersonCharacter_BPC484D7A94BE4A66D72D41387EB64AE6F.tmp' to '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Blueprint/FirstPersonCharacter_BP.uasset'
+[2017.09.08-09.32.47:945][917]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Blueprint/FirstPersonCharacter_BP.uasset
+[2017.09.08-09.35.48:369][626]Candidate modules for hot reload:
+[2017.09.08-09.35.48:370][626]  ScripterWorkshop
+[2017.09.08-09.35.48:370][626]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 5028 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.35.48:372][626]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.36.01:726][742]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:36:01 PM
+[2017.09.08-09.36.01:726][742]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.36.01:726][742]CompilerResultsLog: Target is up to date
+[2017.09.08-09.36.01:727][742]CompilerResultsLog: Total build time: 12,15 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2017.09.08-09.36.01:727][742]LogMainFrame: MainFrame: Module compiling took 13.362 seconds
+[2017.09.08-09.36.02:289][742]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.36.02:297][742]Display: HotReload took 13.9s.
+[2017.09.08-09.36.08:948][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.36.08:975][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.36.08:976][ 88]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:36:08 PM)
+[2017.09.08-09.36.08:976][ 88]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.36.08:981][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004311s)
+[2017.09.08-09.36.08:982][ 88]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.36.08:983][ 88]LogPlayLevel: PIE: World Init took: (0.001848s)
+[2017.09.08-09.36.08:983][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007220s)
+[2017.09.08-09.36.09:067][ 88]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.36.09:088][ 88]LogInit: FAudioDevice initialized.
+[2017.09.08-09.36.09:124][ 88]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.36.09:126][ 88]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.36.09
+[2017.09.08-09.36.09:127][ 88]LogWorld: Bringing up level for play took: 0.002190
+[2017.09.08-09.36.09:130][ 88]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.735
+[2017.09.08-09.36.10:671][215]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.36.12:300][353]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.36.15:369][635]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.36.16:869][776]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.37.27:361][438]Candidate modules for hot reload:
+[2017.09.08-09.37.27:361][438]  ScripterWorkshop
+[2017.09.08-09.37.27:362][438]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 8584 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.37.27:364][438]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.37.59:684][744]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:37:59 PM
+[2017.09.08-09.37.59:684][744]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.37.59:684][744]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.37.59:684][744]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.37.59:685][744]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 15,2916474 seconds
+[2017.09.08-09.37.59:685][744]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.37.59:685][744]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.37.59:685][744]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-8584.dll
+[2017.09.08-09.37.59:685][744]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-8584.lib
+[2017.09.08-09.37.59:686][744]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8584.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8584.exp
+[2017.09.08-09.37.59:686][744]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8584.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-8584.suppressed.exp
+[2017.09.08-09.37.59:687][744]CompilerResultsLog: Total build time: 31,76 seconds (Local executor: 4,39 seconds)
+[2017.09.08-09.37.59:687][744]LogMainFrame: MainFrame: Module compiling took 32.331 seconds
+[2017.09.08-09.37.59:842][744]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0025 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.37.59:846][744]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.38.00:472][744]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.38.00:479][744]Display: HotReload took 33.1s.
+[2017.09.08-09.38.04:664][889]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.38.04:690][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.38.04:691][889]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:38:04 PM)
+[2017.09.08-09.38.04:691][889]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.38.04:695][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003926s)
+[2017.09.08-09.38.04:697][889]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.38.04:697][889]LogPlayLevel: PIE: World Init took: (0.001568s)
+[2017.09.08-09.38.04:698][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006504s)
+[2017.09.08-09.38.04:806][889]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.38.04:825][889]LogInit: FAudioDevice initialized.
+[2017.09.08-09.38.04:861][889]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.38.04:863][889]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.38.04
+[2017.09.08-09.38.04:864][889]LogWorld: Bringing up level for play took: 0.002374
+[2017.09.08-09.38.04:868][889]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.471
+[2017.09.08-09.38.06:155][  3]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.38.08:135][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.08-09.38.11:437][350]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.38.11:461][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.38.11:461][350]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:38:11 PM)
+[2017.09.08-09.38.11:461][350]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.38.11:464][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003082s)
+[2017.09.08-09.38.11:466][350]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.38.11:466][350]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2017.09.08-09.38.11:467][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005399s)
+[2017.09.08-09.38.11:508][350]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.38.11:527][350]LogInit: FAudioDevice initialized.
+[2017.09.08-09.38.11:562][350]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.38.11:565][350]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.38.11
+[2017.09.08-09.38.11:566][350]LogWorld: Bringing up level for play took: 0.002751
+[2017.09.08-09.38.11:570][350]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.827
+[2017.09.08-09.38.12:775][452]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.38.18:664][ 45]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.39.07:715][668]Candidate modules for hot reload:
+[2017.09.08-09.39.07:715][668]  ScripterWorkshop
+[2017.09.08-09.39.07:716][668]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 4075 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.39.07:718][668]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.39.36:747][836]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:39:36 PM
+[2017.09.08-09.39.36:748][836]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.39.36:748][836]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.39.36:748][836]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.39.36:748][836]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 12,1400107 seconds
+[2017.09.08-09.39.36:749][836]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.39.36:749][836]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.39.36:749][836]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-4075.dll
+[2017.09.08-09.39.36:749][836]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-4075.lib
+[2017.09.08-09.39.36:750][836]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-4075.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-4075.exp
+[2017.09.08-09.39.36:750][836]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-4075.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-4075.suppressed.exp
+[2017.09.08-09.39.36:751][836]CompilerResultsLog: Total build time: 27,54 seconds (Local executor: 3,69 seconds)
+[2017.09.08-09.39.36:751][836]LogMainFrame: MainFrame: Module compiling took 29.041 seconds
+[2017.09.08-09.39.36:912][836]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.39.36:916][836]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.39.37:577][836]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.39.37:584][836]Display: HotReload took 29.9s.
+[2017.09.08-09.39.43:742][902]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.39.43:774][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.39.43:774][902]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:39:43 PM)
+[2017.09.08-09.39.43:775][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.39.43:779][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004180s)
+[2017.09.08-09.39.43:781][902]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.39.43:782][902]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2017.09.08-09.39.43:782][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007341s)
+[2017.09.08-09.39.43:912][902]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.39.43:955][902]LogInit: FAudioDevice initialized.
+[2017.09.08-09.39.43:988][902]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.39.43:990][902]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.39.43
+[2017.09.08-09.39.43:991][902]LogWorld: Bringing up level for play took: 0.002564
+[2017.09.08-09.39.43:995][902]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.402
+[2017.09.08-09.39.45:451][ 53]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.39.50:108][493]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.39.50:337][515]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.39.50:598][539]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.45.10:895][334]Candidate modules for hot reload:
+[2017.09.08-09.45.10:895][334]  ScripterWorkshop
+[2017.09.08-09.45.10:896][334]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 3707 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.45.10:899][334]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.45.54:692][545]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:45:54 PM
+[2017.09.08-09.45.54:693][545]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.45.54:693][545]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.45.54:693][545]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.45.54:694][545]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 21,99624 seconds
+[2017.09.08-09.45.54:695][545]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.45.54:695][545]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.45.54:695][545]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-3707.dll
+[2017.09.08-09.45.54:695][545]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-3707.lib
+[2017.09.08-09.45.54:696][545]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3707.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3707.exp
+[2017.09.08-09.45.54:696][545]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3707.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-3707.suppressed.exp
+[2017.09.08-09.45.54:697][545]CompilerResultsLog: Total build time: 42,45 seconds (Local executor: 4,90 seconds)
+[2017.09.08-09.45.54:698][545]LogMainFrame: MainFrame: Module compiling took 43.810 seconds
+[2017.09.08-09.45.54:875][545]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0025 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.45.54:878][545]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.45.55:468][545]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.45.55:477][545]Display: HotReload took 44.6s.
+[2017.09.08-09.45.57:063][678]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.45.57:092][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.45.57:092][678]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:45:57 PM)
+[2017.09.08-09.45.57:092][678]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.45.57:097][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004287s)
+[2017.09.08-09.45.57:098][678]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.45.57:099][678]LogPlayLevel: PIE: World Init took: (0.001928s)
+[2017.09.08-09.45.57:100][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007229s)
+[2017.09.08-09.45.57:217][678]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.45.57:234][678]LogInit: FAudioDevice initialized.
+[2017.09.08-09.45.57:268][678]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.45.57:272][678]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.45.57
+[2017.09.08-09.45.57:273][678]LogWorld: Bringing up level for play took: 0.003605
+[2017.09.08-09.45.57:279][678]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.877
+[2017.09.08-09.45.58:777][812]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.46.16:750][258]Candidate modules for hot reload:
+[2017.09.08-09.46.16:750][258]  ScripterWorkshop
+[2017.09.08-09.46.16:751][258]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 7661 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.46.16:753][258]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.46.54:566][444]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:46:54 PM
+[2017.09.08-09.46.54:567][444]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.46.54:567][444]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.46.54:567][444]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.46.54:568][444]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 18,6429962 seconds
+[2017.09.08-09.46.54:569][444]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.46.54:569][444]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.46.54:569][444]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-7661.dll
+[2017.09.08-09.46.54:570][444]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-7661.lib
+[2017.09.08-09.46.54:570][444]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7661.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7661.exp
+[2017.09.08-09.46.54:571][444]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7661.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7661.suppressed.exp
+[2017.09.08-09.46.54:572][444]CompilerResultsLog: Total build time: 37,08 seconds (Local executor: 3,12 seconds)
+[2017.09.08-09.46.54:572][444]LogMainFrame: MainFrame: Module compiling took 37.827 seconds
+[2017.09.08-09.46.54:748][444]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0039 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.46.54:753][444]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.46.55:438][444]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.46.55:445][444]Display: HotReload took 38.7s.
+[2017.09.08-09.46.58:884][586]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.46.58:907][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.46.58:908][586]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:46:58 PM)
+[2017.09.08-09.46.58:908][586]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.46.58:912][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003616s)
+[2017.09.08-09.46.58:914][586]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.46.58:914][586]LogPlayLevel: PIE: World Init took: (0.001761s)
+[2017.09.08-09.46.58:915][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006434s)
+[2017.09.08-09.46.59:029][586]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.46.59:047][586]LogInit: FAudioDevice initialized.
+[2017.09.08-09.46.59:080][586]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.46.59:082][586]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.46.59
+[2017.09.08-09.46.59:083][586]LogWorld: Bringing up level for play took: 0.001750
+[2017.09.08-09.46.59:086][586]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.684
+[2017.09.08-09.47.12:878][870]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.47.12:900][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.47.12:901][870]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:47:12 PM)
+[2017.09.08-09.47.12:901][870]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.47.12:904][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2017.09.08-09.47.12:905][870]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.47.12:906][870]LogPlayLevel: PIE: World Init took: (0.001647s)
+[2017.09.08-09.47.12:907][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005701s)
+[2017.09.08-09.47.12:954][870]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.47.12:969][870]LogInit: FAudioDevice initialized.
+[2017.09.08-09.47.13:003][870]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.47.13:006][870]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.47.13
+[2017.09.08-09.47.13:007][870]LogWorld: Bringing up level for play took: 0.002447
+[2017.09.08-09.47.13:011][870]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.609
+[2017.09.08-09.47.14:181][972]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.47.57:761][604]Candidate modules for hot reload:
+[2017.09.08-09.47.57:761][604]  ScripterWorkshop
+[2017.09.08-09.47.57:761][604]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 6649 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.47.57:764][604]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.48.41:820][783]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:48:41 PM
+[2017.09.08-09.48.41:821][783]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.48.41:821][783]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.48.41:821][783]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.48.41:822][783]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 22,2358864 seconds
+[2017.09.08-09.48.41:822][783]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.48.41:822][783]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.48.41:823][783]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-6649.dll
+[2017.09.08-09.48.41:823][783]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-6649.lib
+[2017.09.08-09.48.41:823][783]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-6649.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-6649.exp
+[2017.09.08-09.48.41:824][783]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-6649.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-6649.suppressed.exp
+[2017.09.08-09.48.41:825][783]CompilerResultsLog: Total build time: 42,67 seconds (Local executor: 4,74 seconds)
+[2017.09.08-09.48.41:825][783]LogMainFrame: MainFrame: Module compiling took 44.069 seconds
+[2017.09.08-09.48.41:990][783]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0033 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.48.41:995][783]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.48.42:679][783]LogContentBrowser: Native class hierarchy populated in 0.0240 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.48.42:689][783]Display: HotReload took 45.0s.
+[2017.09.08-09.48.45:993][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.48.46:018][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.48.46:019][ 42]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:48:46 PM)
+[2017.09.08-09.48.46:019][ 42]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.48.46:023][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003819s)
+[2017.09.08-09.48.46:025][ 42]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.48.46:025][ 42]LogPlayLevel: PIE: World Init took: (0.001714s)
+[2017.09.08-09.48.46:026][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006586s)
+[2017.09.08-09.48.46:138][ 42]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.48.46:157][ 42]LogInit: FAudioDevice initialized.
+[2017.09.08-09.48.46:191][ 42]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.48.46:193][ 42]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.48.46
+[2017.09.08-09.48.46:194][ 42]LogWorld: Bringing up level for play took: 0.001710
+[2017.09.08-09.48.46:197][ 42]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.206
+[2017.09.08-09.48.49:257][318]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.49.12:408][137]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.49.12:432][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.49.12:433][137]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:49:12 PM)
+[2017.09.08-09.49.12:433][137]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.49.12:438][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004151s)
+[2017.09.08-09.49.12:439][137]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.49.12:440][137]LogPlayLevel: PIE: World Init took: (0.001647s)
+[2017.09.08-09.49.12:440][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006867s)
+[2017.09.08-09.49.12:485][137]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.49.12:502][137]LogInit: FAudioDevice initialized.
+[2017.09.08-09.49.12:540][137]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.49.12:543][137]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.49.12
+[2017.09.08-09.49.12:543][137]LogWorld: Bringing up level for play took: 0.002288
+[2017.09.08-09.49.12:547][137]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.143
+[2017.09.08-09.49.14:607][310]Candidate modules for hot reload:
+[2017.09.08-09.49.14:608][310]  ScripterWorkshop
+[2017.09.08-09.49.14:608][310]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 7871 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.49.14:610][310]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.49.45:236][521]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:49:45 PM
+[2017.09.08-09.49.45:236][521]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.49.45:236][521]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.49.45:237][521]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.49.45:238][521]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 14,8894887 seconds
+[2017.09.08-09.49.45:238][521]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.49.45:238][521]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.49.45:238][521]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-7871.dll
+[2017.09.08-09.49.45:238][521]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-7871.lib
+[2017.09.08-09.49.45:238][521]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7871.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7871.exp
+[2017.09.08-09.49.45:239][521]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7871.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7871.suppressed.exp
+[2017.09.08-09.49.45:240][521]CompilerResultsLog: Total build time: 30,03 seconds (Local executor: 3,61 seconds)
+[2017.09.08-09.49.45:240][521]LogMainFrame: MainFrame: Module compiling took 30.636 seconds
+[2017.09.08-09.49.45:406][521]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0036 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.49.45:412][521]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.49.46:096][521]LogContentBrowser: Native class hierarchy populated in 0.0211 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.49.46:105][521]Display: HotReload took 31.5s.
+[2017.09.08-09.49.51:010][589]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.49.51:038][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.49.51:038][589]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:49:51 PM)
+[2017.09.08-09.49.51:039][589]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.49.51:042][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003105s)
+[2017.09.08-09.49.51:043][589]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.49.51:044][589]LogPlayLevel: PIE: World Init took: (0.001642s)
+[2017.09.08-09.49.51:044][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005765s)
+[2017.09.08-09.49.51:166][589]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.49.51:188][589]LogInit: FAudioDevice initialized.
+[2017.09.08-09.49.51:222][589]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.49.51:225][589]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.49.51
+[2017.09.08-09.49.51:225][589]LogWorld: Bringing up level for play took: 0.002458
+[2017.09.08-09.49.51:230][589]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.826
+[2017.09.08-09.49.56:077][ 38]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.49.56:282][ 53]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.51.55:774][634]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.51.55:801][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.51.55:801][634]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:51:55 PM)
+[2017.09.08-09.51.55:801][634]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.51.55:804][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002873s)
+[2017.09.08-09.51.55:806][634]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.51.55:806][634]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2017.09.08-09.51.55:806][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.005058s)
+[2017.09.08-09.51.55:860][634]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.51.55:884][634]LogInit: FAudioDevice initialized.
+[2017.09.08-09.51.55:917][634]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.51.55:920][634]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.51.55
+[2017.09.08-09.51.55:921][634]LogWorld: Bringing up level for play took: 0.002895
+[2017.09.08-09.51.55:925][634]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.48
+[2017.09.08-09.52.01:856][225]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.52.31:852][891]Candidate modules for hot reload:
+[2017.09.08-09.52.31:852][891]  ScripterWorkshop
+[2017.09.08-09.52.31:853][891]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 182 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.52.31:855][891]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.53.17:634][185]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:53:17 PM
+[2017.09.08-09.53.17:635][185]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.53.17:636][185]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.53.17:636][185]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.53.17:637][185]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 22,453711 seconds
+[2017.09.08-09.53.17:637][185]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.53.17:638][185]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.53.17:638][185]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-182.dll
+[2017.09.08-09.53.17:638][185]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-182.lib
+[2017.09.08-09.53.17:638][185]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-182.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-182.exp
+[2017.09.08-09.53.17:639][185]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-182.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-182.suppressed.exp
+[2017.09.08-09.53.17:640][185]CompilerResultsLog: Total build time: 44,21 seconds (Local executor: 5,60 seconds)
+[2017.09.08-09.53.17:641][185]LogMainFrame: MainFrame: Module compiling took 45.795 seconds
+[2017.09.08-09.53.17:839][185]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0036 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.53.17:844][185]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.53.18:500][185]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.53.18:506][185]Display: HotReload took 46.7s.
+[2017.09.08-09.53.22:441][495]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.53.22:465][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.53.22:466][495]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:53:22 PM)
+[2017.09.08-09.53.22:466][495]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.53.22:470][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003610s)
+[2017.09.08-09.53.22:471][495]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.53.22:472][495]LogPlayLevel: PIE: World Init took: (0.001579s)
+[2017.09.08-09.53.22:472][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006194s)
+[2017.09.08-09.53.22:591][495]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.53.22:606][495]LogInit: FAudioDevice initialized.
+[2017.09.08-09.53.22:639][495]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.53.22:641][495]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.53.22
+[2017.09.08-09.53.22:642][495]LogWorld: Bringing up level for play took: 0.001908
+[2017.09.08-09.53.22:645][495]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.238
+[2017.09.08-09.53.28:056][921]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.53.28:074][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.53.28:075][921]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:53:28 PM)
+[2017.09.08-09.53.28:075][921]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.53.28:078][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002507s)
+[2017.09.08-09.53.28:079][921]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.53.28:079][921]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2017.09.08-09.53.28:079][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.004322s)
+[2017.09.08-09.53.28:124][921]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.53.28:139][921]LogInit: FAudioDevice initialized.
+[2017.09.08-09.53.28:174][921]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.53.28:177][921]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.53.28
+[2017.09.08-09.53.28:177][921]LogWorld: Bringing up level for play took: 0.002262
+[2017.09.08-09.53.28:181][921]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.225
+[2017.09.08-09.53.29:769][ 69]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.53.48:790][608]Candidate modules for hot reload:
+[2017.09.08-09.53.48:791][608]  ScripterWorkshop
+[2017.09.08-09.53.48:791][608]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 9175 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.53.48:794][608]Warning: Starting HotReload took  0.1s.
+[2017.09.08-09.54.14:751][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2017.09.08-09.54.30:198][ 84]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:54:30 PM
+[2017.09.08-09.54.30:198][ 84]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.54.30:198][ 84]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.54.30:199][ 84]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.54.30:200][ 84]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 21,5076813 seconds
+[2017.09.08-09.54.30:200][ 84]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.54.30:200][ 84]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.54.30:200][ 84]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-9175.dll
+[2017.09.08-09.54.30:201][ 84]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-9175.lib
+[2017.09.08-09.54.30:201][ 84]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9175.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9175.exp
+[2017.09.08-09.54.30:202][ 84]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9175.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-9175.suppressed.exp
+[2017.09.08-09.54.30:203][ 84]CompilerResultsLog: Total build time: 40,72 seconds (Local executor: 3,36 seconds)
+[2017.09.08-09.54.30:204][ 84]LogMainFrame: MainFrame: Module compiling took 41.419 seconds
+[2017.09.08-09.54.30:426][ 84]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0043 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.54.30:432][ 84]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.54.31:186][ 84]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.54.31:197][ 84]Display: HotReload took 42.5s.
+[2017.09.08-09.54.32:672][145]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.54.32:695][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.54.32:696][145]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:54:32 PM)
+[2017.09.08-09.54.32:696][145]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.54.32:700][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004145s)
+[2017.09.08-09.54.32:701][145]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.54.32:702][145]LogPlayLevel: PIE: World Init took: (0.001607s)
+[2017.09.08-09.54.32:702][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006687s)
+[2017.09.08-09.54.32:807][145]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.54.32:826][145]LogInit: FAudioDevice initialized.
+[2017.09.08-09.54.32:862][145]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.54.32:864][145]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.54.32
+[2017.09.08-09.54.32:865][145]LogWorld: Bringing up level for play took: 0.002468
+[2017.09.08-09.54.32:870][145]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.462
+[2017.09.08-09.54.34:337][265]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.54.47:681][519]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.54.47:888][538]LogTemp: Warning: Detected collision with SM_MatPreviewMesh_02_2
+[2017.09.08-09.54.50:580][737]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.54.50:605][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.54.50:606][737]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:54:50 PM)
+[2017.09.08-09.54.50:606][737]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.54.50:610][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003854s)
+[2017.09.08-09.54.50:611][737]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.54.50:612][737]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2017.09.08-09.54.50:612][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.006334s)
+[2017.09.08-09.54.50:680][737]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.54.50:706][737]LogInit: FAudioDevice initialized.
+[2017.09.08-09.54.50:744][737]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.54.50:747][737]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.54.50
+[2017.09.08-09.54.50:748][737]LogWorld: Bringing up level for play took: 0.002907
+[2017.09.08-09.54.50:752][737]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.345
+[2017.09.08-09.54.54:567][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.08-09.54.56:158][158]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.54.56:189][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.54.56:189][158]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:54:56 PM)
+[2017.09.08-09.54.56:190][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.54.56:194][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004361s)
+[2017.09.08-09.54.56:196][158]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.54.56:196][158]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2017.09.08-09.54.56:197][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007273s)
+[2017.09.08-09.54.56:256][158]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.54.56:275][158]LogInit: FAudioDevice initialized.
+[2017.09.08-09.54.56:313][158]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.54.56:315][158]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.54.56
+[2017.09.08-09.54.56:316][158]LogWorld: Bringing up level for play took: 0.001934
+[2017.09.08-09.54.56:320][158]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop -0.088
+[2017.09.08-09.54.59:224][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.08-09.55.00:900][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.08-09.55.02:332][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_02)
+[2017.09.08-09.55.04:200][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.09.08-09.55.25:555][952]Candidate modules for hot reload:
+[2017.09.08-09.55.25:556][952]  ScripterWorkshop
+[2017.09.08-09.55.25:556][952]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe ScripterWorkshop -ModuleWithSuffix ScripterWorkshop 7113 Win64 Development -editorrecompile -canskiplink "C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/ScripterWorkshop.uproject" ]
+[2017.09.08-09.55.25:560][952]Warning: Starting HotReload took  0.0s.
+[2017.09.08-09.56.08:944][ 17]CompilerResultsLog: New page: Compilation - Sep 8, 2017, 1:56:08 PM
+[2017.09.08-09.56.08:945][ 17]CompilerResultsLog: Compiling game modules for hot reload
+[2017.09.08-09.56.08:945][ 17]CompilerResultsLog: Parsing headers for ScripterWorkshopEditor
+[2017.09.08-09.56.08:945][ 17]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.08-09.56.08:946][ 17]CompilerResultsLog: Reflection code generated for ScripterWorkshopEditor in 21,1766945 seconds
+[2017.09.08-09.56.08:946][ 17]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.09.08-09.56.08:946][ 17]CompilerResultsLog: MaterialSwitcher.cpp
+[2017.09.08-09.56.08:947][ 17]CompilerResultsLog: [2/3] Link UE4Editor-ScripterWorkshop-7113.dll
+[2017.09.08-09.56.08:947][ 17]CompilerResultsLog: [3/3] Link UE4Editor-ScripterWorkshop-7113.lib
+[2017.09.08-09.56.08:947][ 17]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7113.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7113.exp
+[2017.09.08-09.56.08:948][ 17]CompilerResultsLog:    Creazione della libreria C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7113.suppressed.lib e dell'oggetto C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-7113.suppressed.exp
+[2017.09.08-09.56.08:949][ 17]CompilerResultsLog: Total build time: 41,37 seconds (Local executor: 3,70 seconds)
+[2017.09.08-09.56.08:949][ 17]LogMainFrame: MainFrame: Module compiling took 43.399 seconds
+[2017.09.08-09.56.09:101][ 17]LogContentBrowser: Native class hierarchy updated for 'ScripterWorkshop' in 0.0039 seconds. Added 5 classes and 2 folders.
+[2017.09.08-09.56.09:106][ 17]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.09.08-09.56.09:765][ 17]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2393 classes and 506 folders.
+[2017.09.08-09.56.09:773][ 17]Display: HotReload took 44.2s.
+[2017.09.08-09.56.20:814][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.08-09.56.20:844][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-09.56.20:844][ 93]PIE: New page: PIE session: ScripterWorkshop (Sep 8, 2017, 1:56:20 PM)
+[2017.09.08-09.56.20:845][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScripterWorkshop
+[2017.09.08-09.56.20:849][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004508s)
+[2017.09.08-09.56.20:851][ 93]LogAIModule: Creating AISystem for world ScripterWorkshop
+[2017.09.08-09.56.20:851][ 93]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2017.09.08-09.56.20:852][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScripterWorkshop.ScripterWorkshop to /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop (0.007266s)
+[2017.09.08-09.56.20:981][ 93]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-09.56.21:000][ 93]LogInit: FAudioDevice initialized.
+[2017.09.08-09.56.21:037][ 93]LogLoad: Game class is 'BasicFirstPerson_C'
+[2017.09.08-09.56.21:040][ 93]LogWorld: Bringing World /Game/UEDPIE_0_ScripterWorkshop.ScripterWorkshop up for play (max tick rate 0) at 2017.09.08-11.56.21
+[2017.09.08-09.56.21:041][ 93]LogWorld: Bringing up level for play took: 0.002683
+[2017.09.08-09.56.21:046][ 93]PIE: Play in editor start time for /Game/UEDPIE_0_ScripterWorkshop 0.637
+[2017.09.08-09.56.23:338][271]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.23:533][291]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.23:727][310]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.23:921][329]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.24:099][346]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.24:281][361]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.26:042][521]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.26:226][536]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.26:422][553]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.26:581][567]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.26:764][581]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.26:899][590]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.28:611][758]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.28:812][778]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.28:999][796]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-09.56.29:179][816]LogTemp: Warning: Detected collision with SM_Chair_2
+[2017.09.08-12.46.29:188][862]LogSavePackage: Save=47.27ms
+[2017.09.08-12.46.29:188][862]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/ScripterWorkshopF86F30C94BEFCB2B5C162AA834B663E3.tmp' to '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap'
+[2017.09.08-12.46.29:193][862]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/ScripterWorkshop.umap
+[2017.09.08-12.46.29:297][862]LogFileHelpers: Saving map 'ScripterWorkshop' took 0.365
+[2017.09.08-12.46.32:171][ 22]Cmd: QUIT_EDITOR
+[2017.09.08-12.46.32:599][ 22]LogExit: Preparing to exit.
+[2017.09.08-12.46.33:629][ 22]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' was aborted.
+[2017.09.08-12.46.33:785][ 22]LogExit: Editor shut down
+[2017.09.08-12.46.33:792][ 22]LogExit: Transaction tracking system shut down
+[2017.09.08-12.46.34:075][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.08-12.46.34:075][ 22]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/' was aborted.
+[2017.09.08-12.46.34:075][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.08-12.46.34:075][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.08-12.46.34:075][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.08-12.46.35:756][ 22]LogExit: Object subsystem successfully closed.
+[2017.09.08-12.46.36:033][ 22]LogD3D11RHI: Shutdown
+[2017.09.08-12.46.36:039][ 22]LogD3D11RHI: CleanupD3DDevice
+[2017.09.08-12.46.36:231][ 22]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.08-12.46.37:552][ 22]LogModuleManager: Shutting down and abandoning module ScripterWorkshop (548)
+[2017.09.08-12.46.37:553][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (539)
+[2017.09.08-12.46.37:553][ 22]LogModuleManager: Shutting down and abandoning module BlueprintGraph (537)
+[2017.09.08-12.46.37:553][ 22]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (535)
+[2017.09.08-12.46.37:569][ 22]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.08-12.46.37:569][ 22]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2017.09.08-12.46.37:580][ 22]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.08-12.46.37:597][ 22]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2017.09.08-12.46.37:598][ 22]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2017.09.08-12.46.37:598][ 22]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.09.08-12.46.37:606][ 22]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Collections/' was aborted.
+[2017.09.08-12.46.37:606][ 22]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Content/Developers/Admin/Collections/' was aborted.
+[2017.09.08-12.46.37:606][ 22]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Saved/Collections/' was aborted.
+[2017.09.08-12.46.37:606][ 22]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.08-12.46.37:616][ 22]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.09.08-12.46.37:620][ 22]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.09.08-12.46.37:620][ 22]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.09.08-12.46.37:639][ 22]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.09.08-12.46.37:639][ 22]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.09.08-12.46.37:639][ 22]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.09.08-12.46.37:639][ 22]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.09.08-12.46.37:639][ 22]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.09.08-12.46.37:639][ 22]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.09.08-12.46.37:644][ 22]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.09.08-12.46.37:644][ 22]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.09.08-12.46.37:644][ 22]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.09.08-12.46.37:649][ 22]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.09.08-12.46.37:651][ 22]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.09.08-12.46.37:659][ 22]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.09.08-12.46.37:675][ 22]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.09.08-12.46.37:683][ 22]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.09.08-12.46.37:683][ 22]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.09.08-12.46.37:683][ 22]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.09.08-12.46.37:683][ 22]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.09.08-12.46.37:683][ 22]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.09.08-12.46.37:748][ 22]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.09.08-12.46.37:758][ 22]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.09.08-12.46.37:774][ 22]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.09.08-12.46.37:786][ 22]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.09.08-12.46.37:786][ 22]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.09.08-12.46.37:786][ 22]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.09.08-12.46.37:786][ 22]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.09.08-12.46.38:173][ 22]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.09.08-12.46.38:173][ 22]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.09.08-12.46.38:173][ 22]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.09.08-12.46.38:173][ 22]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.09.08-12.46.38:203][ 22]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.09.08-12.46.38:235][ 22]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.09.08-12.46.38:235][ 22]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.09.08-12.46.38:274][ 22]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.09.08-12.46.38:274][ 22]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.09.08-12.46.38:319][ 22]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.09.08-12.46.38:348][ 22]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.09.08-12.46.38:348][ 22]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.09.08-12.46.38:353][ 22]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.09.08-12.46.38:353][ 22]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.09.08-12.46.38:369][ 22]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.09.08-12.46.38:369][ 22]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.09.08-12.46.38:370][ 22]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.09.08-12.46.38:370][ 22]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.09.08-12.46.38:370][ 22]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.09.08-12.46.38:412][ 22]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.09.08-12.46.38:488][ 22]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.09.08-12.46.38:514][ 22]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.09.08-12.46.38:520][ 22]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.09.08-12.46.38:532][ 22]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.09.08-12.46.38:607][ 22]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.09.08-12.46.38:655][ 22]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.09.08-12.46.38:669][ 22]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.09.08-12.46.38:675][ 22]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.09.08-12.46.38:675][ 22]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.09.08-12.46.38:690][ 22]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.09.08-12.46.38:701][ 22]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.09.08-12.46.38:749][ 22]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.09.08-12.46.38:749][ 22]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.09.08-12.46.38:757][ 22]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.09.08-12.46.38:779][ 22]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.09.08-12.46.38:779][ 22]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.09.08-12.46.38:779][ 22]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.09.08-12.46.38:807][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.09.08-12.46.38:847][ 22]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.09.08-12.46.38:847][ 22]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.09.08-12.46.38:863][ 22]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.09.08-12.46.38:863][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.09.08-12.46.38:863][ 22]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.09.08-12.46.38:863][ 22]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.09.08-12.46.38:863][ 22]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.09.08-12.46.38:950][ 22]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.09.08-12.46.38:961][ 22]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.09.08-12.46.39:139][ 22]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.09.08-12.46.39:159][ 22]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.09.08-12.46.39:159][ 22]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.08-12.46.39:159][ 22]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.08-12.46.39:159][ 22]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.08-12.46.39:163][ 22]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.08-12.46.39:163][ 22]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.08-12.46.39:163][ 22]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.08-12.46.39:166][ 22]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.08-12.46.39:166][ 22]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.08-12.46.39:166][ 22]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.08-12.46.39:268][ 22]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.09.08-12.46.39:268][ 22]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.09.08-12.46.39:274][ 22]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.09.08-12.46.39:274][ 22]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.09.08-12.46.39:274][ 22]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.09.08-12.46.39:274][ 22]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.09.08-12.46.39:274][ 22]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.09.08-12.46.39:332][ 22]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.09.08-12.46.39:347][ 22]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.09.08-12.46.39:347][ 22]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.09.08-12.46.39:359][ 22]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.09.08-12.46.39:359][ 22]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.09.08-12.46.39:394][ 22]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.09.08-12.46.39:419][ 22]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.09.08-12.46.39:467][ 22]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.09.08-12.46.39:501][ 22]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.09.08-12.46.39:501][ 22]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.09.08-12.46.39:501][ 22]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.09.08-12.46.39:501][ 22]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.09.08-12.46.39:533][ 22]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.09.08-12.46.39:542][ 22]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.09.08-12.46.39:557][ 22]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.09.08-12.46.39:593][ 22]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.09.08-12.46.39:593][ 22]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.09.08-12.46.39:593][ 22]LogDirectoryWatcher: A directory notification for 'C:/Users/Admin/Documents/Repositories/ScripterWorkshop/ScripterWorkshop/Binaries/Win64' was aborted.
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.08-12.46.39:594][ 22]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.08-12.46.39:598][ 22]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.08-12.46.39:702][ 22]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.08-12.46.39:815][ 22]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.08-12.46.39:859][ 22]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.08-12.46.39:860][ 22]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.08-12.46.39:860][ 22]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.08-12.46.39:879][ 22]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.08-12.46.39:879][ 22]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.08-12.46.39:880][ 22]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.08-12.46.39:880][ 22]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.08-12.46.39:905][ 22]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.08-12.46.39:911][ 22]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.08-12.46.39:928][ 22]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.08-12.46.39:928][ 22]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.08-12.46.39:928][ 22]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.08-12.46.39:948][ 22]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.08-12.46.39:948][ 22]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.08-12.46.39:948][ 22]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.08-12.46.39:948][ 22]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.08-12.46.39:974][ 22]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.08-12.46.39:981][ 22]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.08-12.46.39:981][ 22]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.08-12.46.40:039][ 22]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.08-12.46.40:039][ 22]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.08-12.46.40:045][ 22]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.08-12.46.40:045][ 22]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.08-12.46.40:067][ 22]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.08-12.46.40:091][ 22]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.08-12.46.40:108][ 22]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.08-12.46.40:108][ 22]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.08-12.46.40:170][ 22]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.08-12.46.40:170][ 22]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.08-12.46.40:174][ 22]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.08-12.46.40:175][ 22]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.09.08-12.46.40:194][ 22]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.09.08-12.46.40:206][ 22]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.09.08-12.46.40:206][ 22]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.09.08-12.46.40:221][ 22]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.09.08-12.46.40:221][ 22]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.09.08-12.46.40:237][ 22]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.09.08-12.46.40:246][ 22]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.09.08-12.46.40:246][ 22]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.08-12.46.40:247][ 22]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.08-12.46.40:321][ 22]LogDerivedDataCache: Shutdown
+[2017.09.08-12.46.40:326][ 22]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.08-12.46.40:326][ 22]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.08-12.46.40:341][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.08-12.46.40:356][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.08-12.46.40:378][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.08-12.46.40:485][ 22]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.08-12.46.40:504][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.08-12.46.40:504][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.08-12.46.40:504][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.08-12.46.40:516][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.08-12.46.40:527][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.08-12.46.40:528][ 22]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.08-12.46.40:529][ 22]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.08-12.46.40:562][ 22]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.08-12.46.40:562][ 22]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.08-12.46.40:562][ 22]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.08-12.46.40:562][ 22]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.08-12.46.40:639][ 22]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.08-12.46.40:785][ 22]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.08-12.46.40:785][ 22]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.08-12.46.40:805][ 22]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2BF6ED69-44D9-5BC3-F1BE-979394C4F4D9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=e596fd8543d8b022c6c53ab13e8a51b7%7C2bdd1138e9c84a049480766a9822828c%7C2095de21-1a6e-4602-8a10-60df676f333c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.08-12.46.40:817][ 22]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.08-12.46.40:827][ 22]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.08-12.46.40:859][ 22]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.08-12.46.40:859][ 22]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.08-12.46.40:924][ 22]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.08-12.46.40:942][ 22]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.08-12.46.40:942][ 22]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.08-12.46.40:942][ 22]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.08-12.46.40:998][ 22]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.08-12.46.41:023][ 22]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.08-12.46.41:023][ 22]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.08-12.46.41:043][ 22]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.08-12.46.41:043][ 22]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.08-12.46.41:073][ 22]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.08-12.46.41:073][ 22]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.08-12.46.41:101][ 22]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.08-12.46.41:101][ 22]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.08-12.46.41:127][ 22]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.08-12.46.41:127][ 22]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.08-12.46.41:169][ 22]LogExit: Exiting.
+[2017.09.08-12.46.41:184][ 22]Log file closed, 09/08/17 14:46:41

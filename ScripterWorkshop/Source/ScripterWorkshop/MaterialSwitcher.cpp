@@ -16,12 +16,31 @@ UMaterialSwitcher::UMaterialSwitcher()
 	// ...
 }
 
-
 // Called when the game starts
 void UMaterialSwitcher::BeginPlay()
 {
 	Super::BeginPlay();	
 	SetupInputComponent();
+}
+
+
+// Called every frame
+void UMaterialSwitcher::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	if (ShowDebugLine && DebugLineAlwaysOn)
+	{
+		// Draws a debug line to visualize the range of the raytrace selection
+		UKismetSystemLibrary::DrawDebugLine(
+			GetWorld(),
+			GetRayStartPosition(),
+			GetRayEndPosition(),
+			FColor(255, 0, 0, 1),
+			0.0f,
+			10.0f
+		);
+	}
 }
 
 void UMaterialSwitcher::SetupInputComponent()
@@ -37,12 +56,6 @@ void UMaterialSwitcher::SetupInputComponent()
 }
 
 
-// Called every frame
-void UMaterialSwitcher::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);	
-}
-
 void UMaterialSwitcher::SwitchMaterial()
 {
 	auto HitResult = GetFirstPhysicalBodyInReach();
@@ -56,14 +69,14 @@ FHitResult UMaterialSwitcher::GetFirstPhysicalBodyInReach()
 	FVector StartPosition = GetRayStartPosition();
 	FVector EndPosition = GetRayEndPosition();
 
-	if (ShowDebugLine)
+	if (ShowDebugLine && DebugLineAlwaysOn == false)
 	{
 		// Draws a debug line to visualize the range of the raytrace selection
 		UKismetSystemLibrary::DrawDebugLine(
 			GetWorld(),
 			StartPosition,
 			EndPosition,
-			Color.Red,
+			FColor(255, 0, 0, 1),
 			0.0f,
 			10.0f
 		);
@@ -74,15 +87,16 @@ FHitResult UMaterialSwitcher::GetFirstPhysicalBodyInReach()
 	// Additional collision parameters
 	FCollisionQueryParams CollisionParameters (FName(TEXT("")), false, GetOwner());
 
-	// Shoot Linetrace to get first colliding object it meets
+	// Shoot Linetrace to get first colliding object it meets, be it static or dynamic
 	GetWorld()->LineTraceSingleByObjectType(
 		OUT HitResult,
 		StartPosition,
 		EndPosition,
-		FCollisionObjectQueryParams(ECollisionChannel::ECC_WorldStatic),
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_WorldDynamic && ECollisionChannel::ECC_WorldStatic),
 		CollisionParameters
 	);
 
+	// Actor that got hit by lineTrace
 	AActor* ActorHit = HitResult.GetActor();
 
 	if (ActorHit != nullptr)

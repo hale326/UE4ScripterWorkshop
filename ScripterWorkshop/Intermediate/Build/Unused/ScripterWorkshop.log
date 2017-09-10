@@ -4,13 +4,24 @@
   Performing full C++ include scan (no include cache file)
   Parsing headers for ScripterWorkshopEditor
     Running UnrealHeaderTool "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\ScripterWorkshopEditor\Development\ScripterWorkshopEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ScripterWorkshopEditor in 11,2458267 seconds
+  Reflection code generated for ScripterWorkshopEditor in 11,7574481 seconds
   Performing 17 actions (2 in parallel)
   [2/17] Resource PCLaunch.rc
   [3/17] Resource ModuleVersionResource.rc.inl
   SharedPCH.Engine.cpp
-  MaterialSwitcher.gen.cpp
   MaterialSwitcher.cpp
+  MaterialSwitcher.gen.cpp
+C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(46): error C2601: 'UMaterialSwitcher::SetupInputComponent': local function definitions are illegal
+  C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29): note: this line contains a '{' which has not yet been matched
+C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(60): error C2601: 'UMaterialSwitcher::SwitchMaterial': local function definitions are illegal
+  C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29): note: this line contains a '{' which has not yet been matched
+C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(67): error C2601: 'UMaterialSwitcher::GetFirstPhysicalBodyInReach': local function definitions are illegal
+  C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29): note: this line contains a '{' which has not yet been matched
+C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(110): error C2601: 'UMaterialSwitcher::GetRayStartPosition': local function definitions are illegal
+  C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29): note: this line contains a '{' which has not yet been matched
+C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(123): error C2601: 'UMaterialSwitcher::GetRayEndPosition': local function definitions are illegal
+  C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29): note: this line contains a '{' which has not yet been matched
+C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\MaterialSwitcher.cpp(29): fatal error C1075: the left brace '{' was unmatched at the end of the file
   ScripterWorkshop.cpp
   ScripterWorkshopCharacter.cpp
   ScripterWorkshopGameMode.cpp
@@ -21,9 +32,6 @@
   ScripterWorkshopCharacter.gen.cpp
   ScripterWorkshopHUD.gen.cpp
   ScripterWorkshopProjectile.gen.cpp
-  [16/17] Link UE4Editor-ScripterWorkshop-498.dll
-  [17/17] Link UE4Editor-ScripterWorkshop-498.lib
-     Creating library C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.lib and object C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.exp
-     Creating library C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.suppressed.lib and object C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ScripterWorkshop-498.suppressed.exp
-  Deploying ScripterWorkshopEditor Win64 Development...
-  Total build time: 33,26 seconds (Local executor: 11,15 seconds)
+ERROR : UBT error : Failed to produce item: C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Binaries\Win64\UE4Editor-ScripterWorkshop-4963.dll
+  Total build time: 53,02 seconds (Local executor: 0,00 seconds)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.17\Engine\Build\BatchFiles\Rebuild.bat" ScripterWorkshopEditor Win64 Development "C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\ScripterWorkshop.uproject" -waitmutex" exited with code -1.

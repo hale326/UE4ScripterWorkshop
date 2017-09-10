@@ -1,76 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\ScripterWorkshop.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{7E991127-63C4-47CB-B077-E0067DAA7C40}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\ScripterWorkshop.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\ScripterWorkshopEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{06DB9937-0099-462F-BDC8-E4AC9A611507}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\ScripterWorkshop">
-			<UniqueIdentifier>{0B470380-2F05-4298-A461-6EFEA5E6DF8F}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\ScripterWorkshop\MaterialSwitcher.cpp">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ScripterWorkshop\MaterialSwitcher.h">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\ScripterWorkshop\ScripterWorkshop.Build.cs">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshop.cpp">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshop.h">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopCharacter.cpp">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopCharacter.h">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopGameMode.cpp">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopGameMode.h">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopHUD.cpp">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopHUD.h">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopProjectile.cpp">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopProjectile.h">
-			<Filter>Source\ScripterWorkshop</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ScripterWorkshop.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7E991127-63C4-47CB-B077-E0067DAA7C40}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ScripterWorkshop.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ScripterWorkshopEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{06DB9937-0099-462F-BDC8-E4AC9A611507}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ScripterWorkshop">
+      <UniqueIdentifier>{0B470380-2F05-4298-A461-6EFEA5E6DF8F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\MaterialSwitcher.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\MaterialSwitcher.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ScripterWorkshop\ScripterWorkshop.Build.cs">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshop.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshop.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopCharacter.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopCharacter.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopGameMode.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopGameMode.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopHUD.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopHUD.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\ScripterWorkshopProjectile.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\ScripterWorkshopProjectile.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ScripterWorkshop\SwitchableMaterials.h">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ScripterWorkshop\SwitchableMaterials.cpp">
+      <Filter>Source\ScripterWorkshop</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
