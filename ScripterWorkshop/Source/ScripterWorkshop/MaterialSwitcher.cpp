@@ -5,6 +5,7 @@
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "Classes/Components/InputComponent.h"
+#include "SwitchableMaterials.h"
 
 // Sets default values for this component's properties
 UMaterialSwitcher::UMaterialSwitcher()
@@ -60,6 +61,13 @@ void UMaterialSwitcher::SwitchMaterial()
 {
 	auto HitResult = GetFirstPhysicalBodyInReach();
 	auto HitResultActor = HitResult.GetActor();
+
+	USwitchableMaterials *SwitchableMaterialsComponent = HitResultActor->FindComponentByClass<USwitchableMaterials>();
+
+	if (SwitchableMaterialsComponent)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("SwitchableMaterials component found in %s"), *HitResultActor->GetName());
+	}
 
 }
 
