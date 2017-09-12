@@ -1,3 +1,0 @@
-C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop\ScripterWorkshop.Build.cs
-C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshop.Target.cs
-C:\Users\Admin\Documents\Repositories\ScripterWorkshop\ScripterWorkshop\Source\ScripterWorkshopEditor.Target.cs

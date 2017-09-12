@@ -59,6 +59,10 @@ void UMaterialSwitcher::SetupInputComponent()
 
 void UMaterialSwitcher::SwitchMaterial()
 {
+	/*TODO
+	*Change to previous material
+	*Error Logs
+	*/
 	auto HitResult = GetFirstPhysicalBodyInReach();
 	auto HitResultActor = HitResult.GetActor();
 
@@ -67,6 +71,18 @@ void UMaterialSwitcher::SwitchMaterial()
 	if (SwitchableMaterialsComponent)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("SwitchableMaterials component found in %s"), *HitResultActor->GetName());
+
+		MaterialsArray = SwitchableMaterialsComponent->AlternativeMaterials;
+		CollidedActorMeshComponent = HitResultActor->FindComponentByClass<UMeshComponent>();
+
+		if (CollidedActorMeshComponent)
+		{
+			CollidedActorMeshComponent->SetMaterial(0, MaterialsArray[0]);
+		}
+		else
+		{
+			return;
+		}
 	}
 
 }

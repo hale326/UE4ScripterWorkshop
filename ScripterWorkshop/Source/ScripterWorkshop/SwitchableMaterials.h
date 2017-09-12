@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Materials/Material.h"
 #include "SwitchableMaterials.generated.h"
 
 
@@ -12,9 +13,17 @@ class SCRIPTERWORKSHOP_API USwitchableMaterials : public UActorComponent
 {
 	GENERATED_BODY()
 
+
+	/*TODO
+	*Set default material as first in AlternativeMaterials Array
+	*/
 public:	
 	// Sets default values for this component's properties
 	USwitchableMaterials();
+
+	// Materials to be switched
+	UPROPERTY(EditAnywhere, Category = "Materials")
+	TArray<UMaterial*> AlternativeMaterials;
 
 protected:
 	// Called when the game starts

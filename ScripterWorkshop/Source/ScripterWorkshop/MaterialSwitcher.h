@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "Runtime/Core/Public/Math/Color.h"
 #include "Engine/StaticMeshActor.h"
+#include "Materials/Material.h"
+#include "Components/MeshComponent.h"
 #include "Components/ActorComponent.h"
 #include "MaterialSwitcher.generated.h"
 
@@ -19,11 +21,11 @@ public:
 	// Sets default values for this component's properties
 	UMaterialSwitcher();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Line Casting")
 		float RayLength = 150.0f;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Line Casting")
 		bool ShowDebugLine = true;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Line Casting")
 		bool DebugLineAlwaysOn = false;
 
 protected:
@@ -35,17 +37,17 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	// Material will be changed for this mesh
-	AStaticMeshActor* MeshToPaint;
-
 	void SetupInputComponent();
+	void SwitchMaterial();
+
+	FHitResult GetFirstPhysicalBodyInReach();
 
 	FVector GetRayStartPosition();
 	FVector GetRayEndPosition();
 
-	FHitResult GetFirstPhysicalBodyInReach();
+	// Material will be changed for this mesh
+	UMeshComponent *CollidedActorMeshComponent = nullptr;
 
-	void SwitchMaterial();
+	TArray<UMaterial*> MaterialsArray;
 
-	FColor Color;
 };
