@@ -19,8 +19,13 @@ void USwitchableMaterials::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
-	
+	MaterialsIndex = 0;	
+	OwnerMeshComponent = GetOwner()->FindComponentByClass<UMeshComponent>();
+
+	if (OwnerMeshComponent != nullptr)
+	{
+		AddDefaultMaterialToArray();
+	}
 }
 
 
@@ -30,5 +35,36 @@ void USwitchableMaterials::TickComponent(float DeltaTime, ELevelTick TickType, F
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+void USwitchableMaterials::UpdateIndex(bool Add)
+{
+	if (Add)
+	{
+		if (MaterialsIndex < AlternativeMaterials.Num())
+		{
+			MaterialsIndex++;
+		}
+	}
+	else if (!Add)
+	{
+		if (MaterialsIndex > 0)
+		{
+			MaterialsIndex--;
+		}
+	}
+
+	return;
+}
+
+void USwitchableMaterials::AddDefaultMaterialToArray()
+{
+	// Get asset default material
+	UMaterial *DefaultMaterial = OwnerMeshComponent->GetMaterial(0)->GetMaterial();
+
+	// Add asset default material as the first in the array so that it's possible to set it back
+	AlternativeMaterials.Insert(DefaultMaterial, 0);
+
+	return;
 }
 

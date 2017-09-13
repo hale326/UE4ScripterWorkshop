@@ -61,26 +61,48 @@ void UMaterialSwitcher::SwitchMaterial()
 {
 	/*TODO
 	*Change to previous material
-	*Error Logs
+	*Change MaterialsArray into a pointer
+	*Allow to select the material slot for the alternative material
 	*/
 	auto HitResult = GetFirstPhysicalBodyInReach();
 	auto HitResultActor = HitResult.GetActor();
 
-	USwitchableMaterials *SwitchableMaterialsComponent = HitResultActor->FindComponentByClass<USwitchableMaterials>();
-
-	if (SwitchableMaterialsComponent)
+	if (HitResultActor)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("SwitchableMaterials component found in %s"), *HitResultActor->GetName());
+		USwitchableMaterials *SwitchableMaterialsComponent = HitResultActor->FindComponentByClass<USwitchableMaterials>();
 
-		MaterialsArray = SwitchableMaterialsComponent->AlternativeMaterials;
-		CollidedActorMeshComponent = HitResultActor->FindComponentByClass<UMeshComponent>();
 
-		if (CollidedActorMeshComponent)
+		if (SwitchableMaterialsComponent)
 		{
-			CollidedActorMeshComponent->SetMaterial(0, MaterialsArray[0]);
+			UE_LOG(LogTemp, Warning, TEXT("SwitchableMaterials component found in %s"), *HitResultActor->GetName());
+
+			MaterialsArray = SwitchableMaterialsComponent->AlternativeMaterials;
+			CollidedActorMeshComponent = HitResultActor->FindComponentByClass<UMeshComponent>();
+
+			if (CollidedActorMeshComponent)
+			{
+				int MaterialIndex = SwitchableMaterialsComponent->MaterialsIndex;
+
+				if (MaterialIndex < (MaterialsArray.Num() - 1))
+				{
+					CollidedActorMeshComponent->SetMaterial(0, MaterialsArray[MaterialIndex + 1]);
+					SwitchableMaterialsComponent->UpdateIndex(true);
+				}
+				else
+				{
+					UE_LOG(LogTemp, Error, TEXT("The currently assigned material was the last available on %s"), *HitResultActor->GetName());
+					return;
+				}
+			}
+			else
+			{
+				UE_LOG(LogTemp, Error, TEXT("ERROR: No MeshComponent found on %s"), *HitResultActor->GetName());
+				return;
+			}
 		}
 		else
 		{
+			UE_LOG(LogTemp, Error, TEXT("ERROR: No SwitchableMaterialsComponent found on %s"), *HitResultActor->GetName());
 			return;
 		}
 	}
