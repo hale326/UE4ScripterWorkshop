@@ -52,18 +52,18 @@ void UMaterialSwitcher::SetupInputComponent()
 
 	if (Input)
 	{
-		Input->BindAction("Switch Material", IE_Pressed, this, &UMaterialSwitcher::SwitchMaterial);
+		Input->BindAction("Next Material", IE_Pressed, this, &UMaterialSwitcher::SwitchToNextMaterial);
+		Input->BindAction("Previous Material", IE_Pressed, this, &UMaterialSwitcher::SwitchToPreviousMaterial);
 	}
 }
 
+/*TODO
+*Change MaterialsArray into a pointer
+*Allow to select the material slot for the alternative material
+*/
 
-void UMaterialSwitcher::SwitchMaterial()
+void UMaterialSwitcher::SwitchToNextMaterial()
 {
-	/*TODO
-	*Change to previous material
-	*Change MaterialsArray into a pointer
-	*Allow to select the material slot for the alternative material
-	*/
 	auto HitResult = GetFirstPhysicalBodyInReach();
 	auto HitResultActor = HitResult.GetActor();
 
@@ -107,6 +107,52 @@ void UMaterialSwitcher::SwitchMaterial()
 		}
 	}
 
+}
+
+void UMaterialSwitcher::SwitchToPreviousMaterial()
+{
+	auto HitResult = GetFirstPhysicalBodyInReach();
+	auto HitResultActor = HitResult.GetActor();
+
+	if (HitResultActor)
+	{
+		USwitchableMaterials *SwitchableMaterialsComponent = HitResultActor->FindComponentByClass<USwitchableMaterials>();
+
+
+		if (SwitchableMaterialsComponent)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("SwitchableMaterials component found in %s"), *HitResultActor->GetName());
+
+			MaterialsArray = SwitchableMaterialsComponent->AlternativeMaterials;
+			CollidedActorMeshComponent = HitResultActor->FindComponentByClass<UMeshComponent>();
+
+			if (CollidedActorMeshComponent)
+			{
+				int MaterialIndex = SwitchableMaterialsComponent->MaterialsIndex;
+
+				if (MaterialIndex > 0)
+				{
+					CollidedActorMeshComponent->SetMaterial(0, MaterialsArray[MaterialIndex - 1]);
+					SwitchableMaterialsComponent->UpdateIndex(false);
+				}
+				else
+				{
+					UE_LOG(LogTemp, Error, TEXT("The currently assigned material was the first available on %s"), *HitResultActor->GetName());
+					return;
+				}
+			}
+			else
+			{
+				UE_LOG(LogTemp, Error, TEXT("ERROR: No MeshComponent found on %s"), *HitResultActor->GetName());
+				return;
+			}
+		}
+		else
+		{
+			UE_LOG(LogTemp, Error, TEXT("ERROR: No SwitchableMaterialsComponent found on %s"), *HitResultActor->GetName());
+			return;
+		}
+	}
 }
 
 FHitResult UMaterialSwitcher::GetFirstPhysicalBodyInReach()

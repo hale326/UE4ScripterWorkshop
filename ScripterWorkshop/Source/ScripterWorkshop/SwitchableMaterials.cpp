@@ -60,7 +60,7 @@ void USwitchableMaterials::UpdateIndex(bool Add)
 void USwitchableMaterials::AddDefaultMaterialToArray()
 {
 	// Get asset default material
-	UMaterial *DefaultMaterial = OwnerMeshComponent->GetMaterial(0)->GetMaterial();
+	UMaterialInterface *DefaultMaterial = OwnerMeshComponent->GetMaterial(0)->GetMaterial();
 
 	// Add asset default material as the first in the array so that it's possible to set it back
 	AlternativeMaterials.Insert(DefaultMaterial, 0);

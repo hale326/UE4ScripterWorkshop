@@ -38,7 +38,8 @@ public:
 
 private:
 	void SetupInputComponent();
-	void SwitchMaterial();
+	void SwitchToNextMaterial();
+	void SwitchToPreviousMaterial();
 
 	FHitResult GetFirstPhysicalBodyInReach();
 
@@ -48,6 +49,6 @@ private:
 	// Material will be changed for this mesh
 	UMeshComponent *CollidedActorMeshComponent = nullptr;
 
-	TArray<UMaterial*> MaterialsArray;
+	TArray<UMaterialInterface*> MaterialsArray;
 
 };

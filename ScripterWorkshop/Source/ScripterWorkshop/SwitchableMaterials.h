@@ -24,7 +24,7 @@ public:
 
 	// Materials to be switched
 	UPROPERTY(EditAnywhere, Category = "Materials")
-	TArray<UMaterial*> AlternativeMaterials;
+	TArray<UMaterialInterface*> AlternativeMaterials;
 
 	// Index telling currently assigned material
 	int32 MaterialsIndex = NULL;
